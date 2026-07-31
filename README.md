@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="./assets/technical-product-manager-banner.svg" alt="Ahmed Sadek — Technical Product Manager" width="100%" />
+  <img src="./assets/technical-product-manager-banner.svg" alt="Ahmed Sadek: Technical Product Manager" width="100%" />
 </div>
 
 <div align="center">
 
-I turn complex systems into **clear product decisions, buildable solutions, and measurable outcomes**—combining product strategy with **Models, Simulation & Control Design**.
+I turn complex systems into **clear product decisions, buildable solutions, and measurable outcomes**, combining product strategy with **Models, Simulation & Control Design**.
 
 [![Product Strategy](https://img.shields.io/badge/Product_Strategy-0B1220?style=flat-square&logo=target&logoColor=22D3EE)](#how-i-build-products)
 [![Models, Simulation & Control Design](https://img.shields.io/badge/Models_%7C_Simulation_%7C_Control_Design-0B1220?style=flat-square&logo=mathworks&logoColor=F97316)](#systems-engineering-foundation)
@@ -20,7 +20,7 @@ I turn complex systems into **clear product decisions, buildable solutions, and 
 
 I’m **Ahmed Sadek**, a Technical Product Manager with a systems engineering foundation and a **PhD in Cyber-Physical Systems**. I work where customer needs, business goals, and engineering realities meet.
 
-My background spans **Models, Simulation & Control Design**—from system dynamics and stochastic risk to software-in-the-loop vehicle control. It shapes how I approach products: define the system boundary, understand feedback and uncertainty, make trade-offs visible, and help a cross-functional team move from idea to reliable product.
+My background spans **Models, Simulation & Control Design**, from system dynamics and stochastic risk to software-in-the-loop vehicle control. It shapes how I approach products: define the system boundary, understand feedback and uncertainty, make trade-offs visible, and help a cross-functional team move from idea to reliable product.
 
 > **My product principle:** Start with the problem, design around constraints, ship the smallest valuable change, and learn from evidence.
 
@@ -65,7 +65,7 @@ I use engineering models to make complexity discussable and simulation to test d
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/ahmedmmkms/whatsapp-commerce-concierge">WhatsApp Commerce Concierge</a></h3>
-      <p>An Arabic/English commerce journey spanning WhatsApp and web—from discovery and cart to orders, returns, support, and privacy workflows.</p>
+      <p>An Arabic/English commerce journey spanning WhatsApp and web, from discovery and cart to orders, returns, support, and privacy workflows.</p>
       <p><strong>Product lens:</strong> Omnichannel conversion, MENA localization, accessibility, PDPL-aware operations, and analytics.</p>
       <p><strong>Technical lens:</strong> Next.js, NestJS, PostgreSQL, Redis, queues, Stripe, WhatsApp Cloud API, and CI/CD.</p>
       <p><a href="https://whatsapp-commerce-concierge-web.vercel.app">Live demo →</a></p>
@@ -137,7 +137,7 @@ I use engineering models to make complexity discussable and simulation to test d
   </tr>
 </table>
 
-I use roadmaps as decision tools—not feature calendars. Every meaningful initiative should connect a customer problem to a product outcome, a delivery plan, and a way to learn.
+I use roadmaps as decision tools, not feature calendars. Every meaningful initiative should connect a customer problem to a product outcome, a delivery plan, and a way to learn.
 
 ## Technical fluency
 
@@ -147,7 +147,7 @@ I use roadmaps as decision tools—not feature calendars. Every meaningful initi
 | **APIs & data** | Collaborate on contracts, integrations, data flows, edge cases, and the product implications of technical choices. |
 | **AI & automation** | Frame useful AI workflows around user value, evaluation, trust, cost, latency, and human oversight. |
 | **Delivery** | Turn product intent into testable increments, clear acceptance criteria, release decisions, and visible risks. |
-| **Analytics** | Define events and metrics that explain behavior—not just activity—and use them to guide the next decision. |
+| **Analytics** | Define events and metrics that explain behavior, not just activity, and use them to guide the next decision. |
 
 ## How I measure progress
 
@@ -163,7 +163,7 @@ I prefer a small, connected set of measures over a dashboard full of vanity metr
 ## How I work with teams
 
 - **Bring context, not just tickets.** Teams make better decisions when they understand the customer, outcome, and constraints.
-- **Make trade-offs explicit.** Scope, quality, speed, and risk should be discussed—not discovered at the deadline.
+- **Make trade-offs explicit.** Scope, quality, speed, and risk should be discussed, not discovered at the deadline.
 - **Write for alignment.** Clear problem briefs, decision records, PRDs, and acceptance criteria reduce avoidable ambiguity.
 - **Create a learning loop.** Discovery informs delivery; delivery creates evidence; evidence improves the roadmap.
 - **Share ownership.** Strong products come from product, design, engineering, data, and go-to-market working as one team.
