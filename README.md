@@ -4,24 +4,60 @@
 
 <div align="center">
 
-I turn ambiguous customer problems into **clear product decisions, buildable systems, and measurable outcomes**.
+I turn complex systems into **clear product decisions, buildable solutions, and measurable outcomes**—combining product strategy with **Models, Simulation & Control Design**.
 
 [![Product Strategy](https://img.shields.io/badge/Product_Strategy-0B1220?style=flat-square&logo=target&logoColor=22D3EE)](#how-i-build-products)
+[![Models, Simulation & Control Design](https://img.shields.io/badge/Models_%7C_Simulation_%7C_Control_Design-0B1220?style=flat-square&logo=mathworks&logoColor=F97316)](#systems-engineering-foundation)
 [![Technical Discovery](https://img.shields.io/badge/Technical_Discovery-0B1220?style=flat-square&logo=blueprint&logoColor=A78BFA)](#technical-fluency)
 [![Data-Informed](https://img.shields.io/badge/Data--Informed_Decisions-0B1220?style=flat-square&logo=googleanalytics&logoColor=34D399)](#how-i-measure-progress)
 [![Cross-functional Delivery](https://img.shields.io/badge/Cross--functional_Delivery-0B1220?style=flat-square&logo=linear&logoColor=FBBF24)](#how-i-work-with-teams)
 
-[About](#about) · [Selected work](#selected-product-work) · [Product approach](#how-i-build-products) · [Technical fluency](#technical-fluency) · [Contact](#lets-build-something-useful)
+[About](#about) · [Systems engineering](#systems-engineering-foundation) · [Selected work](#selected-product-work) · [Product approach](#how-i-build-products) · [Contact](#lets-build-something-useful)
 
 </div>
 
 ## About
 
-I’m **Ahmed Sadek**, a Technical Product Manager focused on the space where customer needs, business goals, and engineering realities meet.
+I’m **Ahmed Sadek**, a Technical Product Manager with a systems engineering foundation and PhD research in project management. I work where customer needs, business goals, and engineering realities meet.
 
-My job is to create clarity: understand the real problem, define the outcome, make trade-offs visible, and help a cross-functional team move from idea to reliable product. I’m at my best when a challenge needs both product judgment and enough technical depth to work closely with engineering.
+My background spans **Models, Simulation & Control Design**—from system dynamics and stochastic risk to software-in-the-loop vehicle control. It shapes how I approach products: define the system boundary, understand feedback and uncertainty, make trade-offs visible, and help a cross-functional team move from idea to reliable product.
 
 > **My product principle:** Start with the problem, design around constraints, ship the smallest valuable change, and learn from evidence.
+
+## Systems engineering foundation
+
+I use engineering models to make complexity discussable and simulation to test decisions before they become expensive. That foundation helps me connect product intent to system behavior, operational risk, and measurable performance.
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Dynamic systems</h3>
+      <p>Applied system dynamics and Vensim to whole-lifecycle cost behavior in residential projects, connecting capital, operating, and end-of-life decisions over time.</p>
+      <p><strong>Product translation:</strong> Map feedback loops, time delays, dependencies, and second-order effects before selecting a roadmap.</p>
+      <p><a href="https://carijournals.org/journals/JEPM/article/view/607">Read the system dynamics study →</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Risk &amp; uncertainty</h3>
+      <p>Used Monte Carlo simulation, reliability analysis, and cost-risk S-curves to quantify uncertainty at the preconstruction stage.</p>
+      <p><strong>Product translation:</strong> Replace false precision with scenarios, confidence ranges, explicit assumptions, and risk-adjusted decisions.</p>
+      <p><a href="https://carijournals.org/journals/index.php/JEPM/article/view/608">Monte Carlo study →</a> · <a href="https://carijournals.org/journals/JEPM/article/view/658">S-curves study →</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/ahmedmmkms/TORCS_Simulink_Client">Control design with TORCS + Simulink</a></h3>
+      <p>Developed a Simulink S-Function client for TORCS to support software-in-the-loop driver-controller development, with cruise-control and lane-keeping demonstrations.</p>
+      <p><strong>Product translation:</strong> Define interfaces clearly, validate closed-loop behavior, and learn safely in simulation before real-world deployment.</p>
+      <p><a href="https://github.com/ahmedmmkms/TORCS_Simulink_Client">Explore the project →</a></p>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+[![Google Scholar](https://img.shields.io/badge/Research_on_Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/scholar?q=%22Ahmed+Sadek%22+%22System+Dynamics%22+%22Monte-Carlo%22)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8745--6881-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8745-6881)
+[![TORCS + Simulink](https://img.shields.io/badge/TORCS_%2B_Simulink-Control_Design-F97316?style=flat-square&logo=mathworks&logoColor=white)](https://github.com/ahmedmmkms/TORCS_Simulink_Client)
+
+</div>
 
 ## Selected product work
 
@@ -107,7 +143,7 @@ I use roadmaps as decision tools—not feature calendars. Every meaningful initi
 
 | Area | How I contribute |
 |---|---|
-| **Systems thinking** | Map services, users, dependencies, constraints, and failure paths before committing to a solution. |
+| **Models, Simulation & Control Design** | Frame system boundaries, represent feedback and uncertainty, test scenarios, and use closed-loop thinking to connect decisions with system behavior. |
 | **APIs & data** | Collaborate on contracts, integrations, data flows, edge cases, and the product implications of technical choices. |
 | **AI & automation** | Frame useful AI workflows around user value, evaluation, trust, cost, latency, and human oversight. |
 | **Delivery** | Turn product intent into testable increments, clear acceptance criteria, release decisions, and visible risks. |
