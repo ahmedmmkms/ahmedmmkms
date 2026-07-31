@@ -4,7 +4,7 @@
 
 <div align="center">
 
-I connect **product strategy** with **Models, Simulation & Control Design** to turn complex systems into focused products.
+I turn complex customer and operational challenges into **clear product decisions, practical solutions, and measurable outcomes**.
 
 [![Product Strategy](https://img.shields.io/badge/Product_Strategy-0B1220?style=flat-square&logo=target&logoColor=22D3EE)](#how-i-lead-products)
 [![Systems Engineering](https://img.shields.io/badge/Systems_Engineering-0B1220?style=flat-square)](#systems-engineering-and-research)
