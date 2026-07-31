@@ -18,7 +18,7 @@ I turn complex systems into **clear product decisions, buildable solutions, and 
 
 ## About
 
-I’m **Ahmed Sadek**, a Technical Product Manager with a systems engineering foundation and PhD research in project management. I work where customer needs, business goals, and engineering realities meet.
+I’m **Ahmed Sadek**, a Technical Product Manager with a systems engineering foundation and a **PhD in Cyber-Physical Systems**. I work where customer needs, business goals, and engineering realities meet.
 
 My background spans **Models, Simulation & Control Design**—from system dynamics and stochastic risk to software-in-the-loop vehicle control. It shapes how I approach products: define the system boundary, understand feedback and uncertainty, make trade-offs visible, and help a cross-functional team move from idea to reliable product.
 
