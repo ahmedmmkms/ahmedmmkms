@@ -18,43 +18,43 @@ I turn complex systems into **clear product decisions, buildable solutions, and 
 
 ## About
 
-I’m **Ahmed Sadek**, a Technical Product Manager with a systems engineering foundation and a **PhD in Cyber-Physical Systems**. I work where customer needs, business goals, and engineering realities meet.
+I’m **Ahmed Sadek**, a Technical Product Manager with a systems engineering foundation and a **PhD in Cyber-Physical Systems**. In academic journals, I publish as **Ahmed Moustafa** and **Ahmed M. Moustafa** through the Computers and Systems Engineering Department at **Minia University**.
 
-My background spans **Models, Simulation & Control Design**, from system dynamics and stochastic risk to software-in-the-loop vehicle control. It shapes how I approach products: define the system boundary, understand feedback and uncertainty, make trade-offs visible, and help a cross-functional team move from idea to reliable product.
+My background spans **Models, Simulation & Control Design**, from cyber-physical energy systems and real-time predictive control to autonomous systems and software-in-the-loop vehicle control. It shapes how I approach products: define the system boundary, understand feedback and constraints, make trade-offs visible, and help a cross-functional team move from idea to reliable product.
 
 > **My product principle:** Start with the problem, design around constraints, ship the smallest valuable change, and learn from evidence.
 
 ## Systems engineering foundation
 
-I use engineering models to make complexity discussable and simulation to test decisions before they become expensive. That foundation helps me connect product intent to system behavior, operational risk, and measurable performance.
+I am an Associate Professor in Computers and Systems Engineering at Minia University. My research focuses on **Computer-Controlled Systems** and **Cyber-Physical Systems**, with an emphasis on real-time control, predictive methods, system emulation, and autonomous platforms.
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>Dynamic systems</h3>
-      <p>Applied system dynamics and Vensim to whole-lifecycle cost behavior in residential projects, connecting capital, operating, and end-of-life decisions over time.</p>
-      <p><strong>Product translation:</strong> Map feedback loops, time delays, dependencies, and second-order effects before selecting a roadmap.</p>
-      <p><a href="https://carijournals.org/journals/JEPM/article/view/607">Read the system dynamics study →</a></p>
+      <h3>Cyber-physical energy systems</h3>
+      <p>Research across wind-energy conversion, the Internet of Energy, real-time wind-turbine emulation, and software-defined control for hydrogen-energy storage.</p>
+      <p><strong>Product translation:</strong> Design around the full hardware, software, connectivity, control, and operational ecosystem.</p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=iKZKLygAAAAJ&amp;citation_for_view=iKZKLygAAAAJ:Se3iqnhoufwC">Cyber-physical wind-energy survey →</a><br/><a href="https://doi.org/10.1016/j.ijhydene.2023.08.208">Software-defined hydrogen-storage control →</a></p>
     </td>
     <td width="33%" valign="top">
-      <h3>Risk &amp; uncertainty</h3>
-      <p>Used Monte Carlo simulation, reliability analysis, and cost-risk S-curves to quantify uncertainty at the preconstruction stage.</p>
-      <p><strong>Product translation:</strong> Replace false precision with scenarios, confidence ranges, explicit assumptions, and risk-adjusted decisions.</p>
-      <p><a href="https://carijournals.org/journals/index.php/JEPM/article/view/608">Monte Carlo study →</a> · <a href="https://carijournals.org/journals/JEPM/article/view/658">S-curves study →</a></p>
+      <h3>Real-time models &amp; predictive control</h3>
+      <p>Developed and evaluated real-time emulators, switched model predictive control, hybrid control, and networked control for energy and industrial systems.</p>
+      <p><strong>Product translation:</strong> Represent dynamics and constraints explicitly, test behavior under realistic conditions, and validate feasibility before scaling.</p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=iKZKLygAAAAJ&amp;citation_for_view=iKZKLygAAAAJ:5nxA0vEk-isC">Wind-turbine emulator and switched MPC →</a></p>
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/ahmedmmkms/TORCS_Simulink_Client">Control design with TORCS + Simulink</a></h3>
-      <p>Developed a Simulink S-Function client for TORCS to support software-in-the-loop driver-controller development, with cruise-control and lane-keeping demonstrations.</p>
-      <p><strong>Product translation:</strong> Define interfaces clearly, validate closed-loop behavior, and learn safely in simulation before real-world deployment.</p>
-      <p><a href="https://github.com/ahmedmmkms/TORCS_Simulink_Client">Explore the project →</a></p>
+      <h3>Autonomous systems &amp; control design</h3>
+      <p>Worked on quadrotor tracking autopilots, UAV fractional control, and optimal lane-keeping control using LQR and simulated annealing.</p>
+      <p>The <a href="https://github.com/ahmedmmkms/TORCS_Simulink_Client">TORCS Simulink Client</a> provides an S-Function for software-in-the-loop driver-controller development, including cruise-control and lane-keeping demonstrations.</p>
+      <p><a href="https://doi.org/10.3390/drones6120379">Quadrotor control study →</a><br/><a href="https://doi.org/10.1109/ICENCO48310.2019.9027294">Lane-keeping control study →</a></p>
     </td>
   </tr>
 </table>
 
 <div align="center">
 
-[![Google Scholar](https://img.shields.io/badge/Research_on_Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/scholar?q=%22Ahmed+Sadek%22+%22System+Dynamics%22+%22Monte-Carlo%22)
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8745--6881-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8745-6881)
+[![Google Scholar](https://img.shields.io/badge/Ahmed_M._Moustafa_on_Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ)
+[![Minia University](https://img.shields.io/badge/Minia_University-Academic_Email-1261A0?style=flat-square&logo=gmail&logoColor=white)](mailto:ahmed.mahmoud@mu.edu.eg)
 [![TORCS + Simulink](https://img.shields.io/badge/TORCS_%2B_Simulink-Control_Design-F97316?style=flat-square&logo=mathworks&logoColor=white)](https://github.com/ahmedmmkms/TORCS_Simulink_Client)
 
 </div>
@@ -143,7 +143,7 @@ I use roadmaps as decision tools, not feature calendars. Every meaningful initia
 
 | Area | How I contribute |
 |---|---|
-| **Models, Simulation & Control Design** | Frame system boundaries, represent feedback and uncertainty, test scenarios, and use closed-loop thinking to connect decisions with system behavior. |
+| **Models, Simulation & Control Design** | Frame system boundaries, represent dynamics and constraints, test scenarios, and use closed-loop thinking to connect decisions with system behavior. |
 | **APIs & data** | Collaborate on contracts, integrations, data flows, edge cases, and the product implications of technical choices. |
 | **AI & automation** | Frame useful AI workflows around user value, evaluation, trust, cost, latency, and human oversight. |
 | **Delivery** | Turn product intent into testable increments, clear acceptance criteria, release decisions, and visible risks. |
@@ -185,7 +185,7 @@ I’m interested in thoughtful conversations about digital products, platform st
 <div align="center">
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmedmmkms/)
-[![Email Ahmed](https://img.shields.io/badge/Email_Ahmed-22D3EE?style=for-the-badge&logo=microsoftoutlook&logoColor=0B1220)](mailto:ahmedmmkms@hotmail.com)
+[![Academic Email](https://img.shields.io/badge/Academic_Email-22D3EE?style=for-the-badge&logo=microsoftoutlook&logoColor=0B1220)](mailto:ahmed.mahmoud@mu.edu.eg)
 
 <sub>Strategy with evidence · Technology with purpose · Delivery with focus</sub>
 
