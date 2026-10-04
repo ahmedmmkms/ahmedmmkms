@@ -1,4 +1,4 @@
-<img src="../../assets/clinical-workflow-cover.jpg" alt="Editorial illustration of a clinical folder, sample tubes and an identification tag." width="100%" />
+<img src="../../assets/clinical-handwritten-board.jpg" alt="Illustrated clinical concept board: Match the right record. Make each handoff traceable. Pause when identity is unclear." width="100%" />
 
 # Clinical Workflow Platform
 

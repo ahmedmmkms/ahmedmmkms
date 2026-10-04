@@ -1,4 +1,4 @@
-<img src="../../assets/predictive-maintenance-cover.jpg" alt="Editorial illustration of an industrial motor, an attached sensor and a technician's tools." width="100%" />
+<img src="../../assets/maintenance-handwritten-board.jpg" alt="Illustrated maintenance concept board: Start with useful signals. Every alert needs a reason. Does the value justify the cost?" width="100%" />
 
 # Industrial Predictive Maintenance
 

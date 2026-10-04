@@ -1,4 +1,4 @@
-<img src="./assets/human-engineering-cover.jpg" alt="Editorial illustration of an engineer's worktable, with a notebook, tools, sensor board and wind-turbine model." width="100%" />
+<img src="./assets/handwritten-profile-board.jpg" alt="Illustrated handwritten board: Ahmed's notebook — systems engineer and product manager. Start with people. Make trade-offs visible. Test what matters." width="100%" />
 
 # Hi, I’m Ahmed.
 
@@ -10,7 +10,7 @@ I enjoy the part of product work where a choice has to be made: what to build fi
 
 [LinkedIn](https://www.linkedin.com/in/ahmedmmkms/) · [Research](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ) · [Email](mailto:ahmed.mahmoud@mu.edu.eg)
 
-## Product case studies
+## From my product notebook
 
 These four **developed concept studies** show how I work through product decisions across AI, healthcare, industrial systems, and school operations. Each includes a concrete scenario, alternatives, testable requirements, a screen walkthrough, and a validation plan. The assumptions are explicit; customer interviews, prototypes, and pilot results are future work.
 
@@ -96,4 +96,4 @@ If you’re working on a product where the engineering and the day-to-day workfl
 
 [**Find me on LinkedIn**](https://www.linkedin.com/in/ahmedmmkms/) · [**Send me an email**](mailto:ahmed.mahmoud@mu.edu.eg)
 
-<sub>Case artwork is illustrative; project details and evidence live in the linked pages.</sub>
+<sub>Illustrations and handwritten boards are editorial artwork. Project details and evidence live in the linked pages.</sub>

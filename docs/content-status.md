@@ -7,7 +7,7 @@
 ## Available now
 
 - A personal GitHub introduction connecting systems engineering, product management, teaching, and research.
-- Five editorial illustrations: one profile cover and four case covers.
+- Ten editorial assets: five original illustrations and five handwritten notebook boards for the profile and case pages.
 - Four fully developed concept specifications with concrete assumed scenarios, primary-source references, alternatives, requirements and acceptance tests, architecture, risks, economics, validation, and rollout gates.
 - Six proposed screen walkthroughs per case and 30-second, two-minute, and five-minute interview versions.
 - Decision approach and systems-thinking pages.

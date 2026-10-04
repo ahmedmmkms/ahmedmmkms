@@ -1,4 +1,4 @@
-<img src="../../assets/ai-operations-cover.jpg" alt="Editorial illustration of someone reviewing paper notes beside a laptop." width="100%" />
+<img src="../../assets/ai-handwritten-board.jpg" alt="Illustrated AI concept board: Show the source. Keep the reviewer in control. Is checking faster than writing?" width="100%" />
 
 # AI Operations Copilot
 

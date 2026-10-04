@@ -1,4 +1,4 @@
-<img src="../../assets/school-pickup-cover.jpg" alt="Editorial illustration of a parent, a child and a school staff member meeting at a school entrance." width="100%" />
+<img src="../../assets/school-handwritten-board.jpg" alt="Illustrated school pickup concept board: Arrival is not permission. A staff member confirms release. Plan for the awkward moments." width="100%" />
 
 # Safe School Pickup
 
