@@ -1,144 +1,131 @@
 <div align="center">
-  <img src="./assets/technical-product-manager-banner.svg" alt="Ahmed Sadek: Technical Product Manager" width="100%" />
-</div>
+  <img src="./assets/technical-product-manager-banner.svg" alt="Ahmed Sadek — Systems Engineer × Product Manager. Connect the problem, system model, product decision, and measured signal." width="100%" />
 
-<div align="center">
+### I turn complex technical systems into useful, measurable products.
 
-I turn complex customer and operational challenges into **clear product decisions, practical solutions, and measurable outcomes**.
+Product judgment · Systems engineering · Software &amp; AI
 
-[![Product Strategy](https://img.shields.io/badge/Product_Strategy-0B1220?style=flat-square&logo=target&logoColor=22D3EE)](#how-i-lead-products)
-[![Systems Engineering](https://img.shields.io/badge/Systems_Engineering-0B1220?style=flat-square)](#systems-engineering-and-research)
-[![Cross-functional Delivery](https://img.shields.io/badge/Cross--functional_Delivery-0B1220?style=flat-square&logo=linear&logoColor=FBBF24)](#how-i-lead-products)
+[**Explore the case catalogue →**](https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/README.md) · [LinkedIn](https://www.linkedin.com/in/ahmedmmkms/) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ)
 
-[Profile](#profile) · [Product work](#selected-product-work) · [Research](#systems-engineering-and-research) · [Approach](#how-i-lead-products) · [Contact](#contact)
+[Profile](#profile) · [Product cases](#product-case-catalogue) · [Software projects](#selected-software-projects) · [Systems &amp; research](#systems-engineering-and-research) · [Approach](#how-i-make-product-decisions) · [Contact](#contact)
 
 </div>
 
 ## Profile
 
-I’m **Ahmed Sadek**, a Technical Product Manager with a **PhD in Cyber-Physical Systems** and a systems engineering foundation. I define customer and business outcomes, make technical trade-offs explicit, and help cross-functional teams ship reliable products.
+I’m **Ahmed Sadek**, a **systems engineer and technical product manager** with a PhD in Cyber-Physical Systems. I bring product thinking to technically complex problems: understand the workflow, define the system boundary, weigh alternatives, and turn requirements into testable product decisions.
 
-<sub>Academic publishing names: <strong>Ahmed Moustafa</strong> and <strong>Ahmed M. Moustafa</strong> · Associate Professor, Computers and Systems Engineering, Minia University</sub>
+My focus spans **AI-assisted workflows, B2B platforms, healthcare digitization, and industrial systems**. I connect user and business needs with architecture, data, operational constraints, and a plan to measure value.
 
-## Selected product work
+<sub>Associate Professor, Computers and Systems Engineering, Minia University · Academic publishing names: <strong>Ahmed Moustafa</strong> and <strong>Ahmed M. Moustafa</strong></sub>
+
+## Product case catalogue
+
+**Four concept product case studies, currently at the foundation stage.** Each entry introduces a problem hypothesis, a proposed decision, and a validation plan. These are independent portfolio concepts; research, pilots, and measured outcomes are still to be established.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>WhatsApp Commerce Concierge</h3>
-      <p>A bilingual commerce journey across WhatsApp and web, covering discovery, checkout, orders, returns, support, and privacy.</p>
-      <p><sub>Next.js · NestJS · PostgreSQL · Redis · Stripe · WhatsApp Cloud API</sub></p>
-      <p><a href="https://github.com/ahmedmmkms/whatsapp-commerce-concierge">Repository</a> · <a href="https://whatsapp-commerce-concierge-web.vercel.app">Live demo →</a></p>
+      <h3>01 · AI Operations Copilot</h3>
+      <p><sub>AI PRODUCT MANAGEMENT · B2B WORKFLOWS</sub></p>
+      <p>Turn fragmented operational information into actions that people can review and trace to their source.</p>
+      <p><strong>Proposed decision:</strong> assist with extraction and prioritization; require human approval before an action is committed.</p>
+      <p><sub>LLM evaluation · Human review · Cost / latency / quality</sub></p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/ai-operations-copilot.md">Explore the concept →</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Centralized Procurement Platform</h3>
-      <p>A bilingual B2B procurement platform for catalogs, RFQs, quote comparison, approvals, orders, and payments.</p>
-      <p><sub>Next.js · Spring Boot · OpenAPI · PostgreSQL · Feature flags</sub></p>
-      <p><a href="https://github.com/ahmedmmkms/b2b-marketplace">Repository</a> · <a href="https://b2b-marketplace.pages.dev/en">Live demo →</a></p>
+      <h3>02 · Clinical Workflow Platform</h3>
+      <p><sub>HEALTHTECH · DATA &amp; TRACEABILITY</sub></p>
+      <p>Connect registration, clinical data, specimens, and reporting through a traceable workflow.</p>
+      <p><strong>Proposed decision:</strong> establish identity, structured intake, and auditable handoffs before adding automation.</p>
+      <p><sub>Requirements · Data quality · Phased digitization</sub></p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/clinical-workflow.md">Explore the concept →</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Last-Mile Delivery Control Tower</h3>
-      <p>An operational control surface for routing, live tracking, proof of delivery, COD, SLA monitoring, and exceptions.</p>
-      <p><sub>React · Node.js · PostgreSQL · Socket.IO · PWA · CI/CD</sub></p>
-      <p><a href="https://github.com/ahmedmmkms/last-mile-control-tower">Repository</a> · <a href="https://last-mile-control-tower.vercel.app">Live demo →</a></p>
+      <h3>03 · Industrial Predictive Maintenance</h3>
+      <p><sub>INDUSTRIAL / IoT · RELIABILITY</sub></p>
+      <p>Connect asset signals to maintenance decisions that technicians can understand and act on.</p>
+      <p><strong>Proposed decision:</strong> begin with visibility, thresholds, and anomaly detection; gate predictive ML on useful failure data.</p>
+      <p><sub>Trade studies · Edge / cloud · False-alarm control</sub></p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/predictive-maintenance.md">Explore the concept →</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>WPS Payroll Compliance</h3>
-      <p>A multi-tenant payroll product for validation, anomaly detection, exception workflows, and compliance KPIs.</p>
-      <p><sub>Laravel · Filament · PostgreSQL · Redis · Queues · Automated tests</sub></p>
-      <p><a href="https://github.com/ahmedmmkms/WPSPayrollCompliance">Repository →</a></p>
+      <h3>04 · Safe School Pickup</h3>
+      <p><sub>MULTI-SIDED PRODUCT · TRUST &amp; OPERATIONS</sub></p>
+      <p>Coordinate guardians, school staff, and release confirmation through a clear pickup workflow.</p>
+      <p><strong>Proposed decision:</strong> verify identity and pickup authorization, then require staff confirmation for release.</p>
+      <p><sub>Service journey · Authorization · Exception handling</sub></p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/safe-school-pickup.md">Explore the concept →</a></p>
     </td>
   </tr>
 </table>
 
-<div align="center">
+**Read in two depths:** start with the decision snapshot; follow the artifact links to inspect assumptions, trade-offs, requirements, risks, and measurement plans.
 
-[Explore all public projects →](https://github.com/ahmedmmkms?tab=repositories)
+## How I make product decisions
 
-</div>
+**Discover → Model → Prioritize → Decide → Deliver → Measure → Learn**
+
+| Product question | Systems engineering contribution | Reviewable artifact |
+|---|---|---|
+| Whose problem matters, and why? | Map users, stakeholders, and system boundaries | Problem brief + evidence / assumption register |
+| What should we build first? | Expose dependencies, alternatives, and failure modes | Decision snapshot + scoped MVP |
+| What does “good” mean? | Translate needs into testable behavior | Requirements traceability + acceptance criteria |
+| How will we know it works? | Connect validation to user and business outcomes | KPI tree + guardrails + learning plan |
+
+I use prioritization models and trade studies to support judgment. **Evidence confidence, operational risk, and the cost of being wrong matter alongside feature value.**
+
+[Read my decision approach →](https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/approach.md) · [Systems thinking in practice →](https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/systems-thinking.md)
+
+## Selected software projects
+
+These repositories provide a separate view of software implementation and architecture. Their documented scope is distinct from the four concept studies above.
+
+| Project | Workflow explored | Technical foundation |
+|---|---|---|
+| [**WhatsApp Commerce Concierge**](https://github.com/ahmedmmkms/whatsapp-commerce-concierge) | Bilingual discovery, checkout, orders, returns, and support across WhatsApp and web | Next.js · NestJS · PostgreSQL · Redis · WhatsApp API |
+| [**Centralized Procurement Platform**](https://github.com/ahmedmmkms/b2b-marketplace) | Catalogs, RFQs, quote comparison, approvals, and orders | Next.js · Spring Boot · OpenAPI · PostgreSQL |
+| [**Last-Mile Delivery Control Tower**](https://github.com/ahmedmmkms/last-mile-control-tower) | Dispatch, tracking, proof of delivery, COD, and operational exceptions | React · Node.js · PostgreSQL · Socket.IO |
+| [**WPS Payroll Compliance**](https://github.com/ahmedmmkms/WPSPayrollCompliance) | Payroll validation, exceptions, tenant isolation, and audit workflows | Laravel · Filament · PostgreSQL · Queues |
+
+**Live demos:** [WhatsApp Commerce Concierge](https://whatsapp-commerce-concierge-web.vercel.app) · [Procurement Platform](https://b2b-marketplace.pages.dev/en) · [Delivery Control Tower](https://last-mile-control-tower.vercel.app)
+
+<details>
+<summary><strong>Browse more technical work</strong></summary>
+
+- [TORCS Simulink Client](https://github.com/ahmedmmkms/TORCS_Simulink_Client) — simulation and control integration.
+- [MATLAB / Simulink Modeling](https://github.com/ahmedmmkms/MATLAB_Simulink_Modeling_Liebgott) — modeling resources and engineering exercises.
+- [Operations Research](https://github.com/ahmedmmkms/Operations_Research) — quantitative decision-making resources.
+- [All public repositories →](https://github.com/ahmedmmkms?tab=repositories)
+
+</details>
 
 ## Systems engineering and research
 
-My research focuses on **Computer-Controlled Systems** and **Cyber-Physical Systems**, particularly real-time control, predictive methods, system emulation, and autonomous platforms.
+My research spans **computer-controlled and cyber-physical systems**: real-time control, predictive methods, system emulation, and autonomous platforms. It shapes how I reason about product behavior, interfaces, reliability, and feedback.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Cyber-physical energy</h3>
-      <p>Wind-energy systems, the Internet of Energy, and software-defined hydrogen-storage control.</p>
-      <p><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=iKZKLygAAAAJ&amp;citation_for_view=iKZKLygAAAAJ:Se3iqnhoufwC">Wind-energy survey</a><br/><a href="https://doi.org/10.1016/j.ijhydene.2023.08.208">Hydrogen-storage control →</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Real-time control</h3>
-      <p>System emulation, switched model predictive control, hybrid control, and networked industrial control.</p>
-      <p><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=iKZKLygAAAAJ&amp;citation_for_view=iKZKLygAAAAJ:5nxA0vEk-isC">Wind-turbine emulator and MPC →</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Autonomous control</h3>
-      <p>Quadrotor autopilots, UAV control, and optimal lane keeping through TORCS and Simulink.</p>
-      <p><a href="https://doi.org/10.3390/drones6120379">Quadrotor study</a><br/><a href="https://github.com/ahmedmmkms/TORCS_Simulink_Client">TORCS Simulink Client</a><br/><a href="https://doi.org/10.1109/ICENCO48310.2019.9027294">Lane-keeping study →</a></p>
-    </td>
-  </tr>
-</table>
+| Research theme | Selected work | Product relevance |
+|---|---|---|
+| **Cyber-physical energy** | [Wind-energy survey](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iKZKLygAAAAJ&citation_for_view=iKZKLygAAAAJ:Se3iqnhoufwC) · [Hydrogen-storage control](https://doi.org/10.1016/j.ijhydene.2023.08.208) | Physical constraints, integration, and system-level trade-offs |
+| **Real-time control** | [Wind-turbine emulator and MPC](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iKZKLygAAAAJ&citation_for_view=iKZKLygAAAAJ:5nxA0vEk-isC) | Modeling behavior, timing constraints, and validation |
+| **Autonomous systems** | [Quadrotor study](https://doi.org/10.3390/drones6120379) · [Lane-keeping study](https://doi.org/10.1109/ICENCO48310.2019.9027294) | Estimation, uncertainty, and closed-loop decisions |
 
-<div align="center">
+<details>
+<summary><strong>What I bring across product, systems, and technology</strong></summary>
 
-[![Google Scholar](https://img.shields.io/badge/Ahmed_M._Moustafa-Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ)
-[![Academic Email](https://img.shields.io/badge/Minia_University-Academic_Email-1261A0?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:ahmed.mahmoud@mu.edu.eg)
+| Product | Systems | Technical |
+|---|---|---|
+| Discovery &amp; problem framing | Requirements &amp; traceability | Python · MATLAB · Simulink · C++ |
+| Prioritization &amp; MVP scope | Architecture &amp; interfaces | Software / cloud · APIs &amp; integration |
+| Strategy &amp; roadmaps | Modeling &amp; simulation | AI / ML · Data workflows |
+| Metrics &amp; learning | Risk &amp; verification | Industrial / control systems |
 
-</div>
-
-This background shapes how I lead products: define the system boundary, expose constraints, validate behavior early, and measure the complete operating loop.
-
-## How I lead products
-
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <strong>01 · Discover</strong><br/><br/>
-      Customer problem<br/>
-      User journey<br/>
-      Market context
-    </td>
-    <td width="25%" valign="top">
-      <strong>02 · Decide</strong><br/><br/>
-      Outcomes &amp; metrics<br/>
-      Options &amp; trade-offs<br/>
-      Scope &amp; priorities
-    </td>
-    <td width="25%" valign="top">
-      <strong>03 · Deliver</strong><br/><br/>
-      Testable slices<br/>
-      Dependencies &amp; risks<br/>
-      Release confidence
-    </td>
-    <td width="25%" valign="top">
-      <strong>04 · Learn</strong><br/><br/>
-      Product analytics<br/>
-      Customer feedback<br/>
-      Focused iteration
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-
-Product strategy · Platforms &amp; APIs · Data &amp; AI workflows · Systems &amp; controls · Product analytics · Cross-functional delivery
-
-</div>
+</details>
 
 ## Contact
 
-I’m interested in product leadership, platform strategy, AI-enabled workflows, and products built for complex operational environments.
+Interested in technically complex product problems? **Let’s connect.** I’m interested in technical product management, AI-assisted workflows, platforms, and products built for operational environments.
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmedmmkms/)
-[![Academic Email](https://img.shields.io/badge/Academic_Email-22D3EE?style=for-the-badge&logo=microsoftoutlook&logoColor=0B1220)](mailto:ahmed.mahmoud@mu.edu.eg)
-[![GitHub Projects](https://img.shields.io/badge/GitHub_Projects-0B1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedmmkms?tab=repositories)
-
-<sub>Strategy with evidence · Technology with purpose · Delivery with focus</sub>
-
-</div>
+[**LinkedIn →**](https://www.linkedin.com/in/ahmedmmkms/) · [Academic email](mailto:ahmed.mahmoud@mu.edu.eg) · [Research profile](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ)

@@ -1,56 +1,47 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Ahmed Sadek: Technical Product Manager with a systems engineering foundation</title>
-  <desc id="description">A dark product and systems engineering banner with connected nodes and a gradient accent.</desc>
-
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Ahmed Sadek — Systems Engineer × Product Manager</title>
+  <desc id="description">Complex systems. Clear decisions. A feedback loop connects the user problem, system model, product decision, and measured signal.</desc>
   <defs>
-    <linearGradient id="background" x1="54" y1="25" x2="1138" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#111C35"/>
-      <stop offset="0.55" stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#15102A"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="165" y1="72" x2="927" y2="304" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.55" stop-color="#818CF8"/>
-      <stop offset="1" stop-color="#C084FC"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1015 55) rotate(135) scale(386 433)">
-      <stop stop-color="#7C3AED" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
-    </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#93C5FD" stroke-opacity="0.055"/>
+      <path d="M32 0H0V32" stroke="#244052" stroke-opacity="0.35"/>
     </pattern>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.45"/>
-    </filter>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0L7 3.5L0 7" fill="#58D7C8"/>
+    </marker>
   </defs>
-
-  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#accent)" stroke-opacity="0.32" stroke-width="2"/>
-
-  <g opacity="0.68">
-    <path d="M895 80L1029 122L1110 74M1029 122L1090 230L963 282M1029 122L914 199L963 282M914 199L838 124M914 199L824 290" stroke="url(#accent)" stroke-width="2"/>
-    <circle cx="895" cy="80" r="8" fill="#22D3EE"/>
-    <circle cx="1029" cy="122" r="12" fill="#818CF8"/>
-    <circle cx="1110" cy="74" r="6" fill="#C084FC"/>
-    <circle cx="1090" cy="230" r="7" fill="#22D3EE"/>
-    <circle cx="963" cy="282" r="10" fill="#C084FC"/>
-    <circle cx="914" cy="199" r="16" fill="#0B1220" stroke="#A78BFA" stroke-width="4"/>
-    <circle cx="838" cy="124" r="6" fill="#34D399"/>
-    <circle cx="824" cy="290" r="8" fill="#FBBF24"/>
+  <rect width="1200" height="340" rx="20" fill="#0B1724"/>
+  <rect width="1200" height="340" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="19" stroke="#294252"/>
+  <rect x="48" y="48" width="4" height="243" rx="2" fill="#58D7C8"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="76" y="77" fill="#58D7C8" font-size="15" font-weight="700" letter-spacing="2">SYSTEMS ENGINEER × PRODUCT MANAGER</text>
+    <text x="72" y="150" fill="#F2F6FA" font-size="55" font-weight="700" letter-spacing="-1.4">Ahmed Sadek</text>
+    <text x="76" y="202" fill="#F2F6FA" font-size="25" font-weight="700">Complex systems. Clear decisions.</text>
+    <text x="76" y="251" fill="#B5C6D2" font-size="18">User needs → technical trade-offs → product value</text>
+    <text x="76" y="288" fill="#8CA6B9" font-size="14" letter-spacing="1">AI / SOFTWARE   ·   CYBER-PHYSICAL SYSTEMS   ·   PRODUCT STRATEGY</text>
+    <text x="792" y="55" fill="#8CA6B9" font-size="12" font-weight="700" letter-spacing="2">THE DECISION LOOP</text>
+    <g stroke="#58D7C8" stroke-width="1.5" marker-end="url(#arrow)">
+      <path d="M887 111H934"/>
+      <path d="M1026 150V189"/>
+      <path d="M936 229H889"/>
+      <path d="M797 190V151"/>
+    </g>
+    <rect x="705" y="75" width="182" height="75" rx="10" fill="#112B35" stroke="#39636A"/>
+    <rect x="936" y="75" width="182" height="75" rx="10" fill="#142737" stroke="#39636A"/>
+    <rect x="936" y="191" width="182" height="75" rx="10" fill="#142737" stroke="#39636A"/>
+    <rect x="705" y="191" width="182" height="75" rx="10" fill="#322C22" stroke="#87744C"/>
+    <g fill="#F2F6FA" font-size="17" font-weight="700" text-anchor="middle">
+      <text x="796" y="106">User problem</text>
+      <text x="1027" y="106">System model</text>
+      <text x="1027" y="222">Product decision</text>
+      <text x="796" y="222">Measured signal</text>
+    </g>
+    <g fill="#B5C6D2" font-size="12" text-anchor="middle">
+      <text x="796" y="129">Evidence &amp; context</text>
+      <text x="1027" y="129">Needs &amp; constraints</text>
+      <text x="1027" y="245">Scope &amp; trade-offs</text>
+      <text x="796" y="245">Validate &amp; learn</text>
+    </g>
+    <text x="912" y="300" fill="#8CA6B9" font-size="12" text-anchor="middle">Connect the whole system. Close the feedback loop.</text>
   </g>
-
-  <g filter="url(#shadow)">
-    <rect x="72" y="62" width="370" height="38" rx="19" fill="#17233C" stroke="#22D3EE" stroke-opacity="0.5"/>
-    <circle cx="95" cy="81" r="5" fill="#22D3EE"/>
-    <text x="111" y="87" fill="#BAE6FD" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">PRODUCT × SYSTEMS ENGINEERING</text>
-  </g>
-
-  <text x="72" y="179" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="750" letter-spacing="-1.5">Ahmed Sadek</text>
-  <text x="75" y="232" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" letter-spacing="0.5">TECHNICAL PRODUCT MANAGER</text>
-  <text x="75" y="282" fill="#A7B5CF" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">Systems Thinking . CPS Design . Product Delivery</text>
-
-  <rect x="72" y="315" width="240" height="3" rx="1.5" fill="url(#accent)"/>
 </svg>
