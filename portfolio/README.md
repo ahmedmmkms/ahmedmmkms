@@ -1,43 +1,53 @@
-# Product case catalogue
+# Product ideas I’m exploring
 
-**Ahmed Sadek · Systems Engineer × Technical Product Manager**
+[← Back to my profile](../README.md) · [How I work through decisions](approach.md)
 
-I turn complex technical systems into useful, measurable products by connecting user needs, system constraints, product choices, and validation.
+These cases are a place to work through questions I find interesting: where AI assistance is useful, how people hand work to each other, and how software connects with physical systems.
 
-[Profile](../README.md) · [Decision approach](approach.md) · [Systems thinking](systems-thinking.md) · [Content status](../docs/content-status.md)
+They are **concept studies in progress**. The pages show my current thinking, the trade-offs, and what I would test next. Research and results will be added as the work develops.
 
-## Choose a problem to explore
+## AI Operations Copilot
 
-All four entries are **Concept Product Case Studies · Foundation stage**. They contain proposed directions and explicit assumptions. Full discovery, PRDs, prototypes, validation, and outcome evidence are pending.
+[![A person reviewing notes beside a laptop](../assets/ai-operations-cover.jpg)](case-studies/ai-operations-copilot.md)
 
-| Case | Problem hypothesis | Proposed product choice | Best fit |
-|---|---|---|---|
-| [**AI Operations Copilot**](case-studies/ai-operations-copilot.md) | Fragmented information makes operational actions difficult to identify and track | Source-linked suggestions with human approval | AI PM · Technical PM · B2B SaaS |
-| [**Clinical Workflow Platform**](case-studies/clinical-workflow.md) | Disconnected handoffs make records and specimen status difficult to trace | Identity and workflow traceability before automation | HealthTech PM · Product Owner |
-| [**Industrial Predictive Maintenance**](case-studies/predictive-maintenance.md) | Asset signals do not consistently translate into maintenance action | Visibility and explainable monitoring before predictive ML | Industrial / IoT PM · Systems PM |
-| [**Safe School Pickup**](case-studies/safe-school-pickup.md) | Pickup coordination needs clear authorization and release confirmation | Layered verification and staff-confirmed release | Operations PM · Multi-sided products |
+Can an assistant turn scattered information into useful actions without making the reviewer’s job harder? I’m starting with one document type, visible sources, and a person who decides what happens next.
 
-## What to look for
+[**Read the AI case →**](case-studies/ai-operations-copilot.md)
 
-Each case begins with a **30-second snapshot**: problem, intended users, scope of portfolio work, proposed decision, measurement plan, and accepted trade-off.
+## Clinical Workflow Platform
 
-The deeper review follows this chain:
+[![A clinical folder, clipboard and carefully handled sample tubes](../assets/clinical-workflow-cover.jpg)](case-studies/clinical-workflow.md)
 
-**Problem → Evidence → Stakeholder need → Requirement → Alternative → Decision → MVP → Validation → Metric → Learning**
+Registration, records, specimens, and reports all depend on reliable handoffs. This concept starts with identity and traceability before adding more automation.
 
-| Label | Meaning |
-|---|---|
-| **Observed** | Direct evidence exists and is identified |
-| **Assumed** | A working hypothesis still requires validation |
-| **Proposed** | A design or product choice to evaluate |
-| **Design target** | A desired result, with no measured result implied |
-| **Validated / Measured** | A documented method and supporting evidence must be supplied |
+[**Read the clinical workflow case →**](case-studies/clinical-workflow.md)
 
-## Inspect the reusable artifacts
+## Industrial Predictive Maintenance
 
-- [Case-study template](templates/case-study.md) — recruiter snapshot, product narrative, and technical appendix.
-- [Product-artifact templates](templates/product-artifacts.md) — decisions, assumptions, alternatives, metrics, risks, requirements, and technical depth.
-- [How I make product decisions](approach.md) — evidence, uncertainty, sequencing, and learning.
-- [Systems thinking for product managers](systems-thinking.md) — the second-order effects of product choices.
+[![An industrial motor, sensor and technician's tools](../assets/predictive-maintenance-cover.jpg)](case-studies/predictive-maintenance.md)
 
-For implemented software and academic research, see the separate sections on my [GitHub profile](../README.md).
+A sensor reading matters when it helps someone make a maintenance decision. I’m exploring how far visibility and explainable alerts can take a first release, and what evidence would justify predictive ML.
+
+[**Read the maintenance case →**](case-studies/predictive-maintenance.md)
+
+## Safe School Pickup
+
+[![A parent, child and staff member meeting at a school entrance](../assets/school-pickup-cover.jpg)](case-studies/safe-school-pickup.md)
+
+Pickup needs to be practical for families and staff, with clear authority for releasing a child. This case looks at the normal handover and the exceptions that can complicate it.
+
+[**Read the school pickup case →**](case-studies/safe-school-pickup.md)
+
+---
+
+## A little more depth
+
+Each page starts with the idea and the choice I’m exploring. Expand its working notes for assumptions, proposed scope, measurement plans, and technical detail.
+
+- [My decision approach](approach.md)
+- [Systems thinking in practice](systems-thinking.md)
+- [Reusable product artifacts](templates/product-artifacts.md)
+- [Case-study structure](templates/case-study.md)
+- [Current content status](../docs/content-status.md)
+
+The cover artwork is illustrative. The [software projects and research on my profile](../README.md) have their own repository and publication links.

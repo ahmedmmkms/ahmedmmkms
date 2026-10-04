@@ -1,49 +1,44 @@
+<img src="../../assets/school-pickup-cover.jpg" alt="Editorial illustration of a parent, a child and a school staff member meeting at a school entrance." width="100%" />
+
 # Safe School Pickup
 
-[← Catalogue](../README.md) · [Decision approach](../approach.md) · [Case template](../templates/case-study.md)
+[← All cases](../README.md) · [My approach](../approach.md)
 
-**Concept Product Case Study · Foundation stage**
+*Concept study · In progress*
 
-Multi-sided product · Trust and operations
+Pickup brings several people into one short, busy moment: a guardian, a child, school staff, and often a coordinator at the gate. This case explores how to make that handover easier to follow.
 
-This is an independent portfolio concept. The workflow, users, and proposed product direction below require validation. No customer research, implementation, deployment, or measured outcome is claimed.
+The important product choice is who is allowed to authorize release, and how staff can confirm that the handover is complete.
 
-## 30-second snapshot
+## The choice I’m exploring
 
-| Question | Concept direction |
-|---|---|
-| Problem hypothesis | School pickup coordination may lack clear request status, current authorization checks, and recorded release confirmation. |
-| Intended users — assumed | Parents or guardians, school staff, administrators, security, and pickup coordinators; school procedures require input. |
-| My role in this portfolio entry | Concept framing and proposed decision structure; discovery and delivery have not been established |
-| Proposed key decision | Combine authenticated identity, current pickup authorization, and staff-confirmed release. Treat location only as a coordination signal. |
-| Intended outcome | Support a traceable pickup workflow with explicit release authority; queue-time and workload baselines remain unset. |
-| Primary trade-off | Add verification and exception-handling effort in exchange for clearer release control and accountability. |
+I would combine an authenticated request, a current pickup authorization, and a staff-confirmed release. Location could help organize the queue; it would not authorize a child’s release.
 
-## Decision snapshot
+Those checks create extra steps, so the workflow has to make them practical for staff. Exceptions—revoked permission, a duplicate request, an outage—need as much attention as the normal pickup.
 
-**Proposed decision:** Combine authenticated identity, current pickup authorization, and staff-confirmed release. Treat location only as a coordination signal.
+## What I would test first
 
-**Why it matters:** Support a traceable pickup workflow with explicit release authority; queue-time and workload baselines remain unset.
+- Map the school’s existing pickup and exception procedures.
+- Walk through permission changes, identity mismatches, and duplicate requests using synthetic scenarios.
+- Check whether staff can reconstruct who authorized and confirmed a release.
+- Measure queue time and staff effort before proposing speed targets.
 
-**Alternatives to compare:** Improve manual checklists; use authenticated requests and staff confirmation; use location-assisted queueing; use GPS-only release (excluded).
+## Where it stands
 
-**Decision drivers:** Authorization correctness, exception handling, staff workload, connectivity, accessibility, and guardian adoption.
+The next step is to agree on one school workflow and understand its staffing, identity checks, connectivity, and emergency procedures. This is early concept work, with no school pilot or safety outcome claimed.
 
-**Trade-off accepted in the concept:** Add verification and exception-handling effort in exchange for clearer release control and accountability.
-
-**Risk introduced or remaining:** A stale or revoked pickup permission could be used, or an outage could obscure release status.
-
-**Proposed validation:** Map school procedures, observe coordination without collecting identifying child data, and test synthetic pickup scenarios.
+<details>
+<summary><strong>Open the working notes: assumptions, scope, metrics, and technical detail</strong></summary>
 
 ## Evidence and assumptions
 
-The supplied portfolio brief provides the concept direction. It does not provide domain-specific observations or results.
+These are the starting assumptions. They need workflow observations or representative data before they can support a product decision.
 
 | ID | Assumption | Confidence | Impact | Validation method | Status |
 |---|---|---|---|---|---|
 | A01 | Pickup delays and authorization exceptions are material problems in the selected school workflow. | Low | High | Map school procedures, observe coordination without collecting identifying child data, and test synthetic pickup scenarios. | Open |
 
-[INPUT REQUIRED: provide permissioned observations, workflow examples, or datasets before describing real user pain or outcomes.]
+Evidence still needed: permissioned observations, workflow examples, or representative datasets.
 
 ## Proposed MVP boundary
 
@@ -85,19 +80,14 @@ All entries are proposed measurements. Baselines, numeric targets, and results h
 
 [Use the risk and requirements templates →](../templates/product-artifacts.md)
 
-<details>
-<summary><strong>Technical appendix — planned depth</strong></summary>
+### Further technical work
 
 Roles and permissions, authorization freshness, release state machine, audit events, duplicate prevention, and outage scenarios.
 
-[INPUT REQUIRED: supply system constraints and evidence before completing the appendix.]
+The system constraints and supporting evidence still need to be established.
 
 [Reusable technical appendix template](../templates/product-artifacts.md#technical-appendix)
 
 </details>
 
-## Next learning step
-
-Current school pickup policy; guardian authorization rules; staffing model; identity checks; connectivity assumptions; exception and emergency procedures.
-
-The [full case-study template](../templates/case-study.md) defines the remaining discovery, requirements, prioritization, roadmap, validation, rollout, and reflection sections.
+[Case-study structure](../templates/case-study.md) · [Reusable product artifacts](../templates/product-artifacts.md)

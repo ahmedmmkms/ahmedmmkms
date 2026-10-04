@@ -1,43 +1,43 @@
-# Systems thinking for product managers
+# The system around the product
 
-[← Catalogue](README.md) · [Decision approach](approach.md)
+[← My profile](../README.md) · [Product cases](README.md) · [My approach](approach.md)
 
-**A product decision can improve one part of a system while creating costs or risks elsewhere.** I make those connections part of the product conversation.
+A product reaches beyond its interface. Someone has to enter the data, respond to an alert, recover from an outage, or explain a result.
 
-```mermaid
-flowchart TD
-    Customer[Customer and user needs] <--> Product[Product behavior]
-    Product <--> Software[Software and interfaces]
-    Software <--> Data[Data and information quality]
-    Data <--> Infrastructure[Infrastructure and reliability]
-    Infrastructure <--> Operations[People and operating workflow]
-    Operations <--> Business[Business outcomes]
-    Business <--> Environment[Regulation and environment]
-```
+That is where my systems engineering background shapes how I think about product work. A local improvement can create work somewhere else, and I want to understand that before committing to the design.
 
-## Apply it to a concrete choice
+## Follow the work beyond the screen
 
-The examples below are design considerations for the concept cases. They are not observed outcomes.
+**An AI suggestion** might make extraction faster but leave someone with more checking to do. I would measure the complete review task, including corrections.
 
-| Choice | Intended benefit | Second-order effects to examine | Useful validation |
-|---|---|---|---|
-| AI-assisted extraction | Less manual information sorting | Unsupported suggestions, review workload, data exposure, inference cost | Labeled task evaluation plus timed reviewer comparison |
-| Structured clinical intake | More complete records and traceable handoffs | Additional entry friction, exception handling, identity errors | Synthetic workflow walkthroughs and completeness checks |
-| Continuous asset monitoring | Earlier visibility of abnormal behavior | Sensor availability, bandwidth, false alarms, technician workload | Replay representative signals and trial alert handling |
-| Extra pickup verification | Stronger release control | Queue delays, recovery steps, staff effort | Scenario tests for normal pickup, revoked permissions, and outages |
+**A structured clinical form** might improve completeness but slow down an already difficult handoff. I would look at who enters the information and who needs it next.
 
-## Trace a need into product behavior
+**A maintenance alert** might be accurate in a test and still be difficult to act on. I would examine data availability, the operating conditions, and the technician’s response.
 
-For Safe School Pickup, a proposed traceability chain is:
+**An extra pickup check** might strengthen release control while adding pressure to a busy queue. I would test permission changes, exceptions, and staff effort together.
 
-**Authorized pickup only → Current guardian permission → Release authorization check → Staff-confirmed release → Revocation and mismatch scenario tests**
+These are considerations for the concept cases, not reported findings.
 
-GPS proximity can support queue coordination. It does not establish identity or authorize release.
+## Let the engineering explain a choice
 
-## Keep the engineering relevant
+An architecture earns its place in a product discussion when it explains something that matters.
 
-Architecture is useful when it explains a product choice: a durable queue because a handoff must survive an outage; an audit trail because a workflow must be reconstructed; a simpler model because data and explainability constrain the MVP.
+A durable queue matters if work has to survive an outage. An audit trail matters if a handoff needs to be reconstructed. A simpler model matters if a team needs to understand why an alert appeared.
 
-I keep detailed interfaces, requirements, risk analysis, and evaluation methods in a technical appendix. The main narrative explains what they mean for the user, operating team, and product outcome.
+For the pickup concept, the boundary is particularly clear: location may help coordinate arrival, but current authorization and staff confirmation determine release.
 
-[Inspect the traceability and risk templates →](templates/product-artifacts.md)
+<details>
+<summary><strong>A few connections I check during a deeper review</strong></summary>
+
+| Connection | What I look for |
+|---|---|
+| User and product | The task, the friction, and the intended outcome |
+| Product and software | Behavior, interfaces, exceptions, and dependencies |
+| Software and data | Identity, quality, ownership, and corrections |
+| Infrastructure and operations | Availability, recovery, and support effort |
+| Operations and business | Cost, adoption, value, and unintended effects |
+| Product and environment | Relevant policy, privacy, and physical constraints |
+
+[Requirements and risk templates](templates/product-artifacts.md)
+
+</details>

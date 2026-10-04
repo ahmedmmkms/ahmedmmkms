@@ -6,15 +6,16 @@
 
 ## Available now
 
-- Refreshed GitHub profile positioning systems engineering and technical product management together.
-- Four linked concept catalogue entries with snapshots, proposed decisions, assumptions, illustrative flows, and measurement plans.
+- A personal GitHub introduction connecting systems engineering, product management, teaching, and research.
+- Five editorial illustrations: one profile cover and four case covers.
+- Four linked concept entries with readable introductions and expandable working notes covering assumptions, proposed scope, metrics, and technical detail.
 - Decision approach and systems-thinking pages.
 - Reusable case-study and product-artifact templates.
 - Separate links to existing software repositories and academic research.
 
 ## Case readiness
 
-| Case | Catalogue / concept snapshot | Full discovery and PRD | Prototype / pilot | Validated outcomes |
+| Case | Catalogue / initial direction | Full discovery and PRD | Prototype / pilot | Validated outcomes |
 |---|---|---|---|---|
 | [AI Operations Copilot](../portfolio/case-studies/ai-operations-copilot.md) | Available | Pending input | Not established | None supplied |
 | [Clinical Workflow](../portfolio/case-studies/clinical-workflow.md) | Available | Pending input | Not established | None supplied |

@@ -1,46 +1,49 @@
-# How I make product decisions
+# How I work through a product decision
 
-[← Catalogue](README.md) · [Systems thinking](systems-thinking.md) · [Artifact templates](templates/product-artifacts.md)
+[← My profile](../README.md) · [Product cases](README.md)
 
-**Product decisions are decisions under uncertainty.** I make the assumptions, constraints, and trade-offs visible so a team can challenge a choice and test it.
+A feature request is a starting point. I want to understand the work behind it: who is trying to do what, where things become difficult, and what would make a useful difference.
 
-## From discovery to learning
+My engineering background comes into the conversation when we start choosing a solution. What does it depend on? How might it fail? What will the operating team have to live with? Those questions often change the scope.
 
-| Step | Question | Useful output |
-|---|---|---|
-| Discover | Which user problem is worth solving? | Workflow, stakeholder map, evidence gaps |
-| Model | What system are we changing? | Boundaries, interfaces, dependencies, failure modes |
-| Prioritize | Which outcome or uncertainty matters first? | MVP scope and sequencing rationale |
-| Decide | Which alternative best fits the constraints? | Decision snapshot and accepted trade-off |
-| Deliver | What small slice can we verify? | Testable requirements and rollout gates |
-| Measure | What would demonstrate value or harm? | Outcome metrics, guardrails, and baseline plan |
-| Learn | What evidence would change the decision? | A decision to continue, adapt, or stop |
+## Start with something specific
 
-I consider **customer value, business value, technical feasibility, strategic fit, risk, and evidence confidence** together. This is a set of questions to reason through, rather than a literal multiplication formula.
+A workflow is easier to reason about than a broad ambition. For the AI Operations Copilot, I would start with one kind of document and one review task. That gives us something concrete to observe and compare.
 
-## Three proposed decisions to examine
+The same applies to the other concepts: one clinical handoff, one asset class, or one school pickup process.
 
-These are concept directions from the catalogue, not decisions validated with customers.
+## Put the choice on the page
 
-| Case | Proposed choice | Trade-off | Evidence that could change the choice |
-|---|---|---|---|
-| [AI Operations Copilot](case-studies/ai-operations-copilot.md) | Keep a reviewer between suggestion and action | More review effort in exchange for control and traceability | Task-level evaluations and reviewer time show whether assistance adds value |
-| [Clinical Workflow](case-studies/clinical-workflow.md) | Establish identity and auditable handoffs first | Narrower initial scope in exchange for dependable workflow data | Workflow observation reveals a different bottleneck or existing traceability capability |
-| [Predictive Maintenance](case-studies/predictive-maintenance.md) | Start with thresholds and anomaly detection | Less predictive capability initially, with lower data and integration demands | Representative failure histories and pilot results justify a predictive model |
+I want someone reading a decision to understand three things: **why this option, what it costs us, and what could change our minds.**
 
-## Prioritization with judgment
+A few examples from the concept cases:
 
-Reach, impact, confidence, and effort can structure a comparison when inputs are defensible. I avoid inventing RICE scores when user counts, evidence confidence, and implementation effort are unknown.
+- **AI Operations Copilot:** keep a reviewer between a suggestion and an action. The open question is whether the help saves more time than the review adds.
+- **Clinical Workflow:** establish identity and traceable handoffs first. The open question is whether that addresses the most important problem in the actual setting.
+- **Predictive Maintenance:** begin with explainable monitoring. The open question is whether available failure data supports something more predictive.
+- **School Pickup:** keep release authority with staff and current guardian permissions. The open question is how to make verification practical during a busy pickup period.
 
-Safety controls, identity, and architectural dependencies may need to precede a feature with a larger apparent benefit. I record why that exception matters and what evidence would permit a different sequence.
+These are proposed directions. They still need evidence.
 
-## A decision is reviewable when…
+## Use the numbers carefully
 
-- Its problem and intended user are clear.
-- Evidence and assumptions are distinguishable.
-- Alternatives and the trade-off are named.
-- Its requirements can be verified.
-- Its success metric and harm guardrail are defined.
-- There is a practical way to invalidate the hypothesis.
+Prioritization scores can help when their inputs mean something. If reach or effort is largely a guess, I would rather make that uncertainty visible than let a tidy score settle the argument.
 
-[Use the Decision Snapshot template →](templates/product-artifacts.md#decision-snapshot)
+I also want a measure that could tell us we are making things worse: more review effort, more false alarms, a longer queue, or more exceptions for staff.
+
+## Leave room to learn
+
+The first version should help answer an important question. I would define that question, the evidence needed, and the conditions for continuing, changing direction, or stopping.
+
+That is the part of systems thinking I find especially useful in product work: a decision is connected to what happens next, and the feedback should come back into the decision.
+
+<details>
+<summary><strong>The structure behind these notes</strong></summary>
+
+For a deeper review, I use a [decision snapshot](templates/product-artifacts.md#decision-snapshot), an [assumption register](templates/product-artifacts.md#assumption-register), and [testable requirements](templates/product-artifacts.md#requirements-matrix).
+
+The broader questions are customer value, business value, feasibility, strategic fit, risk, and evidence confidence. They support judgment; they are not a formula that produces the answer.
+
+[All reusable product artifacts](templates/product-artifacts.md)
+
+</details>

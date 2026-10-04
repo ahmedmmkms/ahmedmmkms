@@ -1,49 +1,44 @@
+<img src="../../assets/clinical-workflow-cover.jpg" alt="Editorial illustration of a clinical folder, sample tubes and an identification tag." width="100%" />
+
 # Clinical Workflow Platform
 
-[← Catalogue](../README.md) · [Decision approach](../approach.md) · [Case template](../templates/case-study.md)
+[← All cases](../README.md) · [My approach](../approach.md)
 
-**Concept Product Case Study · Foundation stage**
+*Concept study · In progress*
 
-HealthTech · Workflow traceability
+A digital form can be easy to complete and still leave the next person without the information they need. This case looks at the handoffs around registration, clinical records, specimens, and reporting.
 
-This is an independent portfolio concept. The workflow, users, and proposed product direction below require validation. No customer research, implementation, deployment, or measured outcome is claimed.
+I’m interested in a narrow question first: can a team reliably tell what a record belongs to, where it is in the process, and what should happen next?
 
-## 30-second snapshot
+## The choice I’m exploring
 
-| Question | Concept direction |
-|---|---|
-| Problem hypothesis | Disconnected registration, specimen, and reporting handoffs may create duplicate entry, missing information, or poor status visibility. |
-| Intended users — assumed | Registration staff, clinical staff, laboratory teams, and workflow administrators; exact setting is unconfirmed. |
-| My role in this portfolio entry | Concept framing and proposed decision structure; discovery and delivery have not been established |
-| Proposed key decision | Establish identity, structured intake, and auditable handoffs before adding workflow automation. |
-| Intended outcome | Make an agreed handoff traceable from record creation to completion; baseline and target remain unset. |
-| Primary trade-off | Limit initial automation and scope in exchange for dependable identity and workflow data. |
+I would start with identity, structured intake, and a visible history of handoffs. More automation can follow once those foundations are dependable.
 
-## Decision snapshot
+The trade-off is a smaller first release. I think that is worth exploring because automating an unclear workflow can make its mistakes travel faster. The actual scope still needs to come from observing a specific care setting.
 
-**Proposed decision:** Establish identity, structured intake, and auditable handoffs before adding workflow automation.
+## What I would test first
 
-**Why it matters:** Make an agreed handoff traceable from record creation to completion; baseline and target remain unset.
+- Walk through a small workflow with the people responsible for each handoff.
+- Use synthetic records to test duplicates, mismatches, and corrections.
+- Check whether required information reaches the next role.
+- Establish current handoff times before setting improvement targets.
 
-**Alternatives to compare:** Improve the manual process; introduce standalone forms; implement a narrow traceable workflow; replace the complete system.
+## Where it stands
 
-**Decision drivers:** Identity correctness, data completeness, staff effort, auditability, integration boundaries, and rollout disruption.
+The next step is to map a real, sanitized workflow and understand the existing systems, roles, and identity conventions. The case is still conceptual; no patient data or deployment results are presented.
 
-**Trade-off accepted in the concept:** Limit initial automation and scope in exchange for dependable identity and workflow data.
-
-**Risk introduced or remaining:** A patient or specimen could be associated with the wrong record; permissions could expose sensitive data.
-
-**Proposed validation:** Map an actual, sanitized workflow and walk through synthetic records with the participating roles.
+<details>
+<summary><strong>Open the working notes: assumptions, scope, metrics, and technical detail</strong></summary>
 
 ## Evidence and assumptions
 
-The supplied portfolio brief provides the concept direction. It does not provide domain-specific observations or results.
+These are the starting assumptions. They need workflow observations or representative data before they can support a product decision.
 
 | ID | Assumption | Confidence | Impact | Validation method | Status |
 |---|---|---|---|---|---|
 | A01 | The selected workflow has manual handoffs and incomplete status visibility. | Low | High | Map an actual, sanitized workflow and walk through synthetic records with the participating roles. | Open |
 
-[INPUT REQUIRED: provide permissioned observations, workflow examples, or datasets before describing real user pain or outcomes.]
+Evidence still needed: permissioned observations, workflow examples, or representative datasets.
 
 ## Proposed MVP boundary
 
@@ -85,19 +80,14 @@ All entries are proposed measurements. Baselines, numeric targets, and results h
 
 [Use the risk and requirements templates →](../templates/product-artifacts.md)
 
-<details>
-<summary><strong>Technical appendix — planned depth</strong></summary>
+### Further technical work
 
 Need-to-requirement traceability, identity model, role permissions, status transitions, audit events, and integration assumptions.
 
-[INPUT REQUIRED: supply system constraints and evidence before completing the appendix.]
+The system constraints and supporting evidence still need to be established.
 
 [Reusable technical appendix template](../templates/product-artifacts.md#technical-appendix)
 
 </details>
 
-## Next learning step
-
-Care setting and actual workflow; participating roles; identity and specimen conventions; existing systems; sanitized pain-point evidence; applicable privacy constraints.
-
-The [full case-study template](../templates/case-study.md) defines the remaining discovery, requirements, prioritization, roadmap, validation, rollout, and reflection sections.
+[Case-study structure](../templates/case-study.md) · [Reusable product artifacts](../templates/product-artifacts.md)

@@ -1,49 +1,44 @@
+<img src="../../assets/predictive-maintenance-cover.jpg" alt="Editorial illustration of an industrial motor, an attached sensor and a technician's tools." width="100%" />
+
 # Industrial Predictive Maintenance
 
-[← Catalogue](../README.md) · [Decision approach](../approach.md) · [Case template](../templates/case-study.md)
+[← All cases](../README.md) · [My approach](../approach.md)
 
-**Concept Product Case Study · Foundation stage**
+*Concept study · In progress*
 
-Industrial / IoT · Reliability
+An alert has to help someone decide what to do. For this case, I’m starting with that maintenance decision and working back to the signals and analysis it needs.
 
-This is an independent portfolio concept. The workflow, users, and proposed product direction below require validation. No customer research, implementation, deployment, or measured outcome is claimed.
+This is close to my engineering interests: physical systems, imperfect measurements, and behavior that changes with operating conditions.
 
-## 30-second snapshot
+## The choice I’m exploring
 
-| Question | Concept direction |
-|---|---|
-| Problem hypothesis | Asset monitoring signals may not translate into timely, understandable maintenance decisions. |
-| Intended users — assumed | Maintenance technicians, reliability engineers, and asset owners; asset class and operating environment require input. |
-| My role in this portfolio entry | Concept framing and proposed decision structure; discovery and delivery have not been established |
-| Proposed key decision | Begin with visibility, fixed thresholds, and anomaly detection; consider predictive ML after data and operating value are established. |
-| Intended outcome | Make monitored signals useful for maintenance action; asset availability and maintenance economics require a baseline. |
-| Primary trade-off | Defer predictive capability in exchange for lower initial data demands and more explainable alerts. |
+My proposed first step is condition visibility, fixed thresholds, and simple anomaly detection for one asset class. Predictive ML becomes an option when the failure data and operating value justify it.
 
-## Decision snapshot
+That means giving up some predictive ambition at the beginning. In return, technicians would have alerts they can inspect, and the pilot could help establish whether the signals are useful enough to build on.
 
-**Proposed decision:** Begin with visibility, fixed thresholds, and anomaly detection; consider predictive ML after data and operating value are established.
+## What I would test first
 
-**Why it matters:** Make monitored signals useful for maintenance action; asset availability and maintenance economics require a baseline.
+- Inspect the available signals and maintenance history before choosing an analysis method.
+- Replay normal and abnormal behavior to examine false alarms and missed events.
+- Observe what a technician does after an alert.
+- Measure data availability and maintenance effort alongside model performance.
 
-**Alternatives to compare:** Scheduled maintenance; fixed-threshold monitoring; statistical anomaly detection; ML predictive maintenance.
+## Where it stands
 
-**Decision drivers:** Time to value, data readiness, explainability, false alarms, integration effort, infrastructure cost, and reliability.
+The next step is to choose an asset class and examine representative sensor and failure data. This is a concept direction, with no pilot performance or maintenance savings claimed.
 
-**Trade-off accepted in the concept:** Defer predictive capability in exchange for lower initial data demands and more explainable alerts.
-
-**Risk introduced or remaining:** Missed events or frequent false alarms could create misplaced confidence or excessive technician workload.
-
-**Proposed validation:** Inspect permissioned asset data, maintenance logs, failure histories, and the current alert-to-action workflow.
+<details>
+<summary><strong>Open the working notes: assumptions, scope, metrics, and technical detail</strong></summary>
 
 ## Evidence and assumptions
 
-The supplied portfolio brief provides the concept direction. It does not provide domain-specific observations or results.
+These are the starting assumptions. They need workflow observations or representative data before they can support a product decision.
 
 | ID | Assumption | Confidence | Impact | Validation method | Status |
 |---|---|---|---|---|---|
 | A01 | Useful operating signals exist, but representative labeled failure histories may be insufficient for predictive ML. | Low | High | Inspect permissioned asset data, maintenance logs, failure histories, and the current alert-to-action workflow. | Open |
 
-[INPUT REQUIRED: provide permissioned observations, workflow examples, or datasets before describing real user pain or outcomes.]
+Evidence still needed: permissioned observations, workflow examples, or representative datasets.
 
 ## Proposed MVP boundary
 
@@ -86,19 +81,14 @@ All entries are proposed measurements. Baselines, numeric targets, and results h
 
 [Use the risk and requirements templates →](../templates/product-artifacts.md)
 
-<details>
-<summary><strong>Technical appendix — planned depth</strong></summary>
+### Further technical work
 
 Signal definitions, sampling assumptions, edge buffering, threshold rationale, alternative comparison, lightweight FMEA, and pilot gates.
 
-[INPUT REQUIRED: supply system constraints and evidence before completing the appendix.]
+The system constraints and supporting evidence still need to be established.
 
 [Reusable technical appendix template](../templates/product-artifacts.md#technical-appendix)
 
 </details>
 
-## Next learning step
-
-Asset class; available sensors and sampling rates; historical failures; maintenance process; integration constraints; operational and economic baselines.
-
-The [full case-study template](../templates/case-study.md) defines the remaining discovery, requirements, prioritization, roadmap, validation, rollout, and reflection sections.
+[Case-study structure](../templates/case-study.md) · [Reusable product artifacts](../templates/product-artifacts.md)

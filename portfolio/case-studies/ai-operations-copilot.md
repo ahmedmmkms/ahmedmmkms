@@ -1,49 +1,44 @@
+<img src="../../assets/ai-operations-cover.jpg" alt="Editorial illustration of someone reviewing paper notes beside a laptop." width="100%" />
+
 # AI Operations Copilot
 
-[← Catalogue](../README.md) · [Decision approach](../approach.md) · [Case template](../templates/case-study.md)
+[← All cases](../README.md) · [My approach](../approach.md)
 
-**Concept Product Case Study · Foundation stage**
+*Concept study · In progress*
 
-AI product management · B2B workflows
+An AI assistant is useful here only if checking its suggestions takes less effort than doing the work manually. That is the question I want this case to answer.
 
-This is an independent portfolio concept. The workflow, users, and proposed product direction below require validation. No customer research, implementation, deployment, or measured outcome is claimed.
+The idea is to help engineering and operations teams turn tickets, notes, and documents into reviewable actions. I’m starting with the handoff between a suggestion and a person who has to decide whether to trust it.
 
-## 30-second snapshot
+## The choice I’m exploring
 
-| Question | Concept direction |
-|---|---|
-| Problem hypothesis | Operational information spread across tickets, notes, and documents may make it difficult to identify and track actionable work. |
-| Intended users — assumed | Engineering coordinators, operations leads, and reviewers; target segment requires validation. |
-| My role in this portfolio entry | Concept framing and proposed decision structure; discovery and delivery have not been established |
-| Proposed key decision | Produce source-linked action suggestions and require human approval before committing an action. |
-| Intended outcome | Reduce the effort needed to turn information into a correct, reviewable action; baseline and target remain unset. |
-| Primary trade-off | Retain reviewer effort in exchange for control, source traceability, and a visible correction loop. |
+My starting point is a small assistant that shows where each suggestion came from and lets a reviewer accept, edit, or reject it. The person keeps control of what becomes an action.
 
-## Decision snapshot
+That adds a review step. It also gives us a way to inspect mistakes and find out whether the assistance is actually saving effort. I would begin with one type of document before investing in a long list of integrations.
 
-**Proposed decision:** Produce source-linked action suggestions and require human approval before committing an action.
+## What I would test first
 
-**Why it matters:** Reduce the effort needed to turn information into a correct, reviewable action; baseline and target remain unset.
+- Compare manual processing with assisted review on the same representative tasks.
+- Check whether each proposed action is supported by its cited source.
+- Record edits and rejection reasons, as well as acceptance.
+- Measure review time, processing latency, and cost together.
 
-**Alternatives to compare:** Manual triage; deterministic extraction; LLM-assisted extraction; autonomous action creation.
+## Where it stands
 
-**Decision drivers:** Action correctness, reviewer workload, privacy, processing cost, latency, and integration effort.
+The next step is to choose a specific user group and input type, then establish the current workflow and privacy boundary. This remains a concept; user research and results are still to come.
 
-**Trade-off accepted in the concept:** Retain reviewer effort in exchange for control, source traceability, and a visible correction loop.
-
-**Risk introduced or remaining:** Unsupported suggestions could be accepted or sensitive source content could reach an unsuitable processing service.
-
-**Proposed validation:** Observe a real workflow, collect permissioned or synthetic samples, and compare manual processing with assisted review.
+<details>
+<summary><strong>Open the working notes: assumptions, scope, metrics, and technical detail</strong></summary>
 
 ## Evidence and assumptions
 
-The supplied portfolio brief provides the concept direction. It does not provide domain-specific observations or results.
+These are the starting assumptions. They need workflow observations or representative data before they can support a product decision.
 
 | ID | Assumption | Confidence | Impact | Validation method | Status |
 |---|---|---|---|---|---|
 | A01 | A significant part of the workflow is spent manually consolidating unstructured information. | Low | High | Observe a real workflow, collect permissioned or synthetic samples, and compare manual processing with assisted review. | Open |
 
-[INPUT REQUIRED: provide permissioned observations, workflow examples, or datasets before describing real user pain or outcomes.]
+Evidence still needed: permissioned observations, workflow examples, or representative datasets.
 
 ## Proposed MVP boundary
 
@@ -85,19 +80,14 @@ All entries are proposed measurements. Baselines, numeric targets, and results h
 
 [Use the risk and requirements templates →](../templates/product-artifacts.md)
 
-<details>
-<summary><strong>Technical appendix — planned depth</strong></summary>
+### Further technical work
 
 Document schema, source-span references, reviewer state, model comparison, evaluation protocol, and permission boundaries.
 
-[INPUT REQUIRED: supply system constraints and evidence before completing the appendix.]
+The system constraints and supporting evidence still need to be established.
 
 [Reusable technical appendix template](../templates/product-artifacts.md#technical-appendix)
 
 </details>
 
-## Next learning step
-
-Target user and operating context; actual input types; integrations; privacy requirements; current processing workflow; available observations and baseline metrics.
-
-The [full case-study template](../templates/case-study.md) defines the remaining discovery, requirements, prioritization, roadmap, validation, rollout, and reflection sections.
+[Case-study structure](../templates/case-study.md) · [Reusable product artifacts](../templates/product-artifacts.md)
