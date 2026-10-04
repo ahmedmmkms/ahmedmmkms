@@ -10,23 +10,23 @@ I enjoy the part of product work where a choice has to be made: what to build fi
 
 [LinkedIn](https://www.linkedin.com/in/ahmedmmkms/) · [Research](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ) · [Email](mailto:ahmed.mahmoud@mu.edu.eg)
 
-## What I’m working through
+## Product case studies
 
-These four **concept case studies are works in progress**. I’m using them to explore product decisions across AI, healthcare, industrial systems, and school operations. Each has an initial direction and a plan for testing it; customer research and results are still ahead.
+These four **developed concept studies** show how I work through product decisions across AI, healthcare, industrial systems, and school operations. Each includes a concrete scenario, alternatives, testable requirements, a screen walkthrough, and a validation plan. The assumptions are explicit; customer interviews, prototypes, and pilot results are future work.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/ai-operations-copilot.md"><img src="./assets/ai-operations-cover.jpg" alt="Illustration of a person reviewing notes beside a laptop." width="100%" /></a>
       <h3>AI Operations Copilot</h3>
-      <p>Can an assistant make scattered information easier to act on, while keeping a person in control?</p>
-      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/ai-operations-copilot.md">Read the idea →</a></p>
+      <p>From incident notes to reviewed follow-up tasks: evidence, ambiguity, and the economics of saving a few minutes.</p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/ai-operations-copilot.md">Read the case →</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/clinical-workflow.md"><img src="./assets/clinical-workflow-cover.jpg" alt="Illustration of a clinical folder, clipboard and carefully handled sample tubes." width="100%" /></a>
       <h3>Clinical Workflow</h3>
-      <p>A closer look at the handoffs between registration, records, specimens, and reporting.</p>
-      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/clinical-workflow.md">Read the idea →</a></p>
+      <p>Following a laboratory visit from registration to reporting, including mismatched specimens and corrected records.</p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/clinical-workflow.md">Read the case →</a></p>
     </td>
   </tr>
   <tr>
@@ -34,13 +34,13 @@ These four **concept case studies are works in progress**. I’m using them to e
       <a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/predictive-maintenance.md"><img src="./assets/predictive-maintenance-cover.jpg" alt="Illustration of an industrial motor, sensor and a technician's tools." width="100%" /></a>
       <h3>Predictive Maintenance</h3>
       <p>Starting with useful signals and explainable alerts before asking a model to predict failures.</p>
-      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/predictive-maintenance.md">Read the idea →</a></p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/predictive-maintenance.md">Read the case →</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/safe-school-pickup.md"><img src="./assets/school-pickup-cover.jpg" alt="Illustration of a parent, child and school staff member meeting at a school entrance." width="100%" /></a>
       <h3>Safe School Pickup</h3>
       <p>Making pickup easier to coordinate, with clear authorization and a staff-confirmed handover.</p>
-      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/safe-school-pickup.md">Read the idea →</a></p>
+      <p><a href="https://github.com/ahmedmmkms/ahmedmmkms/blob/main/portfolio/case-studies/safe-school-pickup.md">Read the case →</a></p>
     </td>
   </tr>
 </table>

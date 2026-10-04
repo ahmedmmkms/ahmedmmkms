@@ -1,123 +1,65 @@
-# Reusable case-study template
+# How to read the product cases
 
-[← Catalogue](../README.md) · [Product artifacts](product-artifacts.md)
+[← Catalogue](../README.md) · [Worked product artifacts](product-artifacts.md)
 
-**Template, not evidence.** Replace every input marker with permissioned evidence or an explicitly labeled assumption. Do not mark a section complete until its evidence and limits are clear.
+Each case has a short opening, a product narrative, and expandable technical detail. The pages are developed concept studies with explicit assumptions and validation plans.
 
-## Layer 1 — 30-second view
+| Case | Assumed setting | Central choice |
+|---|---|---|
+| [AI Operations Copilot](../case-studies/ai-operations-copilot.md) | B2B SaaS incident handoffs. | Draft follow-up work with source evidence and human approval. |
+| [Clinical Workflow](../case-studies/clinical-workflow.md) | Outpatient diagnostic laboratory. | Preserve identity and specimen traceability across handoffs and corrections. |
+| [Predictive Maintenance](../case-studies/predictive-maintenance.md) | Small industrial pump-motor fleet. | Establish useful condition monitoring before predictive models. |
+| [Safe School Pickup](../case-studies/safe-school-pickup.md) | Staffed school pickup operation. | Preserve current authorization and staff-confirmed release. |
 
-| Field | Content |
+These scenarios make the analysis concrete. They do not represent named clients, completed deployments, or customer research.
+
+## Start with the decision
+
+The opening explains the problem, direction, trade-off, and status. For AI assistance, the important choice is which decisions a person must review. For maintenance, it is whether monitoring warrants the cost at all. The [decision snapshot](product-artifacts.md#decision-snapshot) makes that reasoning reviewable.
+
+## Follow the product narrative
+
+**Problem and evidence.** A laboratory quality handbook supports traceability practices; it does not prove that a particular laboratory loses specimens. That local hypothesis still needs observation.
+
+**People and workflow.** An operator raises a concern, a technician investigates it, and a planner schedules work. The product boundary includes the handoffs and exceptions between those roles.
+
+**Scope and alternatives.** Each proposal includes a simpler baseline and explains what is deferred. Configuring existing software may be preferable to building a clinical application. Scheduled maintenance remains a legitimate industrial baseline.
+
+**Decision and trade-off.** The [trade study](product-artifacts.md#trade-study) makes compromises visible. A model may reduce drafting work while increasing review burden. A release confirmation takes time while improving accountability.
+
+**Requirements and delivery.** “Handle duplicates” becomes a concurrent-request test with one accepted release. The [requirements matrix](product-artifacts.md#requirements-matrix) connects needs to observable behavior. Priorities follow dependencies and risk.
+
+**Metrics and economics.** Measures have denominators and collection methods. Targets are proposed; results require executed evaluation. Hypothetical calculations expose break-even assumptions and unfavorable scenarios.
+
+**Validation and rollout.** The plan states what permits expansion and what stops it. Synthetic journeys verify defined behaviors; supervised use tests whether people can complete the workflow.
+
+## Inspect the engineering detail
+
+The expandable sections connect technical choices to consequences:
+
+- AI source references let reviewers check proposed tasks against the original note.
+- Clinical quarantine keeps unresolved identity mismatches out of reporting.
+- Maintenance data-quality states prevent stale readings appearing healthy.
+- Atomic pickup release prevents competing handovers on two devices.
+
+The [technical appendix example](product-artifacts.md#technical-appendix) covers boundaries, states, interfaces, and recovery. Each case adds domain requirements, failure analysis, screen walkthroughs, and evaluation.
+
+## Use the interview versions
+
+The 30-second version states the context, choice, and trade-off. The two-minute version adds evidence and alternatives. The five-minute version opens a requirement, failure scenario, or economic assumption for discussion.
+
+The story stays consistent at every length: independent concept work, a reasoned design, and a concrete test plan. A proposed screen walkthrough is an interaction specification; it does not claim that a working prototype exists.
+
+## What the evidence language means
+
+| Label | Meaning |
 |---|---|
-| Product / domain | [INPUT REQUIRED: name and domain] |
-| Case type | [Concept / Strategy / Redesign / Sanitized Professional / Academic] |
-| Status | [Concept / prototype / pilot / verified deployment] |
-| My role | [INPUT REQUIRED: actual contribution and boundaries] |
-| Problem and users | [INPUT REQUIRED: user, workflow, and problem] |
-| Key decision | [PROPOSED or EVIDENCED: decision] |
-| Outcome / target | [MEASURED result with source, or DESIGN TARGET — requires validation] |
-| Primary trade-off | [INPUT REQUIRED: benefit and cost accepted] |
+| Sourced principle | Supported by a linked primary reference; applicability still needs local review. |
+| Scenario assumption | Chosen operating condition that makes the concept analyzable. |
+| Proposed requirement | Behavior specified for a future implementation and acceptance test. |
+| Design target | Intended threshold needing validation against actual baseline and conditions. |
+| Hypothetical calculation | Arithmetic with assumed inputs to expose sensitivity or break-even. |
+| Validation plan | Proposed evidence collection that has not produced results yet. |
+| Measured result | Reserved for documented executed evaluation. None is asserted for these concepts. |
 
-## Layer 2 — product narrative
-
-### Context, problem, and evidence
-
-[INPUT REQUIRED: business context, current workflow, problem, and evidence sources.]
-
-Separate observations, inferences, assumptions, and proposed choices. Keep raw evidence and confidential details outside the public repository.
-
-### Users, stakeholders, and jobs to be done
-
-[INPUT REQUIRED: primary and secondary users, buyer, operating roles, and their needs.]
-
-When [situation], [user] needs to [job], so that [desired outcome].
-
-### Current workflow and opportunity
-
-[INPUT REQUIRED: map real handoffs, exceptions, pain points, and the opportunity.]
-
-### Goal and non-goals
-
-[INPUT REQUIRED: intended user and business outcomes; scope explicitly excluded.]
-
-### Requirements
-
-[INPUT REQUIRED: functional and non-functional requirements with testable acceptance criteria.]
-
-Use the [requirements matrix](product-artifacts.md#requirements-matrix) to connect needs, features, and verification.
-
-### Alternatives and trade-offs
-
-[INPUT REQUIRED: feasible options, decision criteria, evidence confidence, and qualitative considerations.]
-
-Use the [trade-study template](product-artifacts.md#trade-study). The matrix informs the decision; it does not make the decision.
-
-### Decision snapshot
-
-[Complete the signature decision artifact](product-artifacts.md#decision-snapshot).
-
-### MVP and prioritization
-
-[INPUT REQUIRED: minimum testable slice, dependencies, why each capability comes first, and what is deferred.]
-
-Avoid numeric prioritization scores unless reach, impact, confidence, and effort have a defensible basis.
-
-### Product and system architecture
-
-[INPUT REQUIRED: boundaries, components, interfaces, data flow, and operational dependencies.]
-
-Explain how each important engineering choice supports value, feasibility, risk reduction, or learning.
-
-### Roadmap and delivery plan
-
-| Horizon | Outcome to establish | Themes | Evidence / exit gate |
-|---|---|---|---|
-| Now | [INPUT REQUIRED] | [INPUT REQUIRED] | [INPUT REQUIRED] |
-| Next | [INPUT REQUIRED] | [INPUT REQUIRED] | [INPUT REQUIRED] |
-| Later | [INPUT REQUIRED] | [INPUT REQUIRED] | [INPUT REQUIRED] |
-
-### Metrics and guardrails
-
-[INPUT REQUIRED: baseline source, outcome metric, input metrics, harm guardrails, instrumentation, and review interval.]
-
-Use the [metrics tree](product-artifacts.md#metrics-tree). Distinguish an intended outcome from a measured result.
-
-### Assumptions, risks, and validation
-
-[INPUT REQUIRED: highest-impact unknowns, failure modes, mitigations, and how the hypothesis could be invalidated.]
-
-Use the [assumption register](product-artifacts.md#assumption-register) and [risk table](product-artifacts.md#risk-table).
-
-### Rollout and adoption
-
-[INPUT REQUIRED: intended pilot boundary, operating owner, training, stop conditions, support, and recovery path.]
-
-### Learning and reflection
-
-[INPUT REQUIRED: what to test next and what would change the decision.]
-
-If no work has been tested, write expected learning questions rather than retrospective lessons.
-
-## Layer 3 — technical appendix
-
-Use the [technical appendix](product-artifacts.md#technical-appendix) for context, interfaces, traceability, FMEA, data models, evaluation methods, and API sketches.
-
-## Interview version
-
-Prepare an evidence-aware 30-second, 2-minute, and 5-minute story:
-
-**Context → Problem → Evidence → Options → Decision → Trade-off → Execution plan → Metric → Learning**
-
-Clearly identify concept work and proposed decisions.
-
-## Completion gate
-
-- [ ] Case type, status, and actual role are clear.
-- [ ] Problem, users, workflow, and evidence are documented.
-- [ ] Assumptions are separate from observations.
-- [ ] Goal, non-goals, requirements, and alternatives are defined.
-- [ ] Decision, trade-off, MVP, and prioritization are explicit.
-- [ ] Architecture supports the product reasoning.
-- [ ] Measurement, guardrails, risks, and validation are defined.
-- [ ] Roadmap, rollout, next learning step, and technical appendix exist.
-- [ ] No unsubstantiated ownership, research, deployment, or outcome claims appear.
-- [ ] Links, diagrams, mobile reading, and interview versions have been reviewed.
+The [assumption register](product-artifacts.md#assumption-register), [risk table](product-artifacts.md#risk-table), and [metrics tree](product-artifacts.md#metrics-tree) contain filled examples.

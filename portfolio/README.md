@@ -1,16 +1,16 @@
-# Product ideas I’m exploring
+# Product case catalogue
 
 [← Back to my profile](../README.md) · [How I work through decisions](approach.md)
 
 These cases are a place to work through questions I find interesting: where AI assistance is useful, how people hand work to each other, and how software connects with physical systems.
 
-They are **concept studies in progress**. The pages show my current thinking, the trade-offs, and what I would test next. Research and results will be added as the work develops.
+These are **developed concept studies**. Each works through a specific assumed setting, sourced principles, product requirements, alternatives, economics, and a validation plan. Each also includes six proposed screens and short interview walkthroughs. Customer interviews, working prototypes, and pilot outcomes have not been completed.
 
 ## AI Operations Copilot
 
 [![A person reviewing notes beside a laptop](../assets/ai-operations-cover.jpg)](case-studies/ai-operations-copilot.md)
 
-Can an assistant turn scattered information into useful actions without making the reviewer’s job harder? I’m starting with one document type, visible sources, and a person who decides what happens next.
+Can an assistant turn incident notes into useful follow-up tasks without making the reviewer’s job harder? This case compares a structured template and three model approaches, then examines source evidence, ambiguity, evaluation, and the break-even point.
 
 [**Read the AI case →**](case-studies/ai-operations-copilot.md)
 
@@ -42,12 +42,12 @@ Pickup needs to be practical for families and staff, with clear authority for re
 
 ## A little more depth
 
-Each page starts with the idea and the choice I’m exploring. Expand its working notes for assumptions, proposed scope, measurement plans, and technical detail.
+Each page starts with the problem and my proposed choice. Expand the detail to inspect acceptance tests, data contracts, risks, measurement, and rollout gates. The calculations show their assumptions, including scenarios where the investment would not pay back.
 
 - [My decision approach](approach.md)
 - [Systems thinking in practice](systems-thinking.md)
-- [Reusable product artifacts](templates/product-artifacts.md)
-- [Case-study structure](templates/case-study.md)
+- [Worked product artifacts](templates/product-artifacts.md)
+- [How to read the cases](templates/case-study.md)
 - [Current content status](../docs/content-status.md)
 
 The cover artwork is illustrative. The [software projects and research on my profile](../README.md) have their own repository and publication links.
