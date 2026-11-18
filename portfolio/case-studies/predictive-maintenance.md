@@ -1,5 +1,3 @@
-<img src="../../assets/maintenance-handwritten-board.jpg" alt="Illustrated maintenance concept board: Start with useful signals. Every alert needs a reason. Does the value justify the cost?" width="100%" />
-
 # Industrial Predictive Maintenance
 
 [← All cases](../README.md) · [My approach](../approach.md)

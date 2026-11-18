@@ -2,13 +2,13 @@
 
 [← Back to my profile](../README.md) · [How I work through decisions](approach.md)
 
-Four cases, each starting with a question I want to work through. The handwritten boards capture the choices that matter; the pages below open up the assumptions, trade-offs, and engineering behind them.
+Four cases, each starting with a question I want to work through. Each case lists the principles that guide it; the pages open up the assumptions, trade-offs, and engineering behind them.
 
 These are **developed concept studies**. Each works through a specific assumed setting, sourced principles, product requirements, alternatives, economics, and a validation plan. Each also includes six proposed screens and short interview walkthroughs. Customer interviews, working prototypes, and pilot outcomes have not been completed.
 
 ## AI Operations Copilot
 
-[![AI concept board: Show the source. Keep the reviewer in control. Is checking faster than writing?](../assets/ai-handwritten-board.jpg)](case-studies/ai-operations-copilot.md)
+*Show the source. · Keep the reviewer in control. · Is checking faster than writing?*
 
 Can an assistant turn incident notes into useful follow-up tasks without making the reviewer’s job harder? This case compares a structured template and three model approaches, then examines source evidence, ambiguity, evaluation, and the break-even point.
 
@@ -16,7 +16,7 @@ Can an assistant turn incident notes into useful follow-up tasks without making 
 
 ## Clinical Workflow Platform
 
-[![Clinical concept board: Match the right record. Make each handoff traceable. Pause when identity is unclear.](../assets/clinical-handwritten-board.jpg)](case-studies/clinical-workflow.md)
+*Match the right record. · Make each handoff traceable. · Pause when identity is unclear.*
 
 Registration, records, specimens, and reports all depend on reliable handoffs. This concept starts with identity and traceability before adding more automation.
 
@@ -24,7 +24,7 @@ Registration, records, specimens, and reports all depend on reliable handoffs. T
 
 ## Industrial Predictive Maintenance
 
-[![Maintenance concept board: Start with useful signals. Every alert needs a reason. Does the value justify the cost?](../assets/maintenance-handwritten-board.jpg)](case-studies/predictive-maintenance.md)
+*Start with useful signals. · Every alert needs a reason. · Does the value justify the cost?*
 
 A sensor reading matters when it helps someone make a maintenance decision. I’m exploring how far visibility and explainable alerts can take a first release, and what evidence would justify predictive ML.
 
@@ -32,7 +32,7 @@ A sensor reading matters when it helps someone make a maintenance decision. I’
 
 ## Safe School Pickup
 
-[![School pickup concept board: Arrival is not permission. A staff member confirms release. Plan for the awkward moments.](../assets/school-handwritten-board.jpg)](case-studies/safe-school-pickup.md)
+*Arrival is not permission. · A staff member confirms release. · Plan for the awkward moments.*
 
 Pickup needs to be practical for families and staff, with clear authority for releasing a child. This case looks at the normal handover and the exceptions that can complicate it.
 

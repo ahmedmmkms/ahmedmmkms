@@ -1,5 +1,3 @@
-<img src="../../assets/clinical-handwritten-board.jpg" alt="Illustrated clinical concept board: Match the right record. Make each handoff traceable. Pause when identity is unclear." width="100%" />
-
 # Clinical Workflow Platform
 
 [← All cases](../README.md) · [My approach](../approach.md)

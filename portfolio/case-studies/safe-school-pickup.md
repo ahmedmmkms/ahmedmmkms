@@ -1,5 +1,3 @@
-<img src="../../assets/school-handwritten-board.jpg" alt="Illustrated school pickup concept board: Arrival is not permission. A staff member confirms release. Plan for the awkward moments." width="100%" />
-
 # Safe School Pickup
 
 [← All cases](../README.md) · [My approach](../approach.md)

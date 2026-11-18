@@ -1,5 +1,3 @@
-<img src="../../assets/ai-handwritten-board.jpg" alt="Illustrated AI concept board: Show the source. Keep the reviewer in control. Is checking faster than writing?" width="100%" />
-
 # AI Operations Copilot
 
 [← All cases](../README.md) · [My approach](../approach.md)
