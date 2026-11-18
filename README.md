@@ -7,7 +7,7 @@ I’m a technical product manager with a PhD in cyber-physical systems. I’m In
 
 I enjoy the part of product work where a choice has to be made: what to build first, what to simplify, and what needs more evidence. That’s where I bring my engineering background, especially when software has to work with people, everyday processes, or physical systems.
 
-**Open to technical product manager roles.**
+**Open to remote technical product manager roles.**
 
 [LinkedIn](https://www.linkedin.com/in/ahmedmmkms/) · [Research](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ) · [Email](mailto:ahmedmmkms@gmail.com)
 
