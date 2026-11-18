@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#9198a1"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#3fb9a9"/></marker>
+</defs>
+<rect x="24" y="62" width="4" height="150" rx="2" fill="#3fb9a9"/>
+<text x="52" y="84" font-size="15" font-weight="600" letter-spacing="2.5" fill="#3fb9a9">TECHNICAL PRODUCT MANAGER</text>
+<text x="50" y="136" font-size="46" font-weight="600" fill="#e6edf3">Ahmed Mahmoud Moustafa</text>
+<text x="52" y="172" font-size="18" fill="#9198a1">Systems engineer · Researcher &amp; teacher · PhD, Cyber-Physical Systems</text>
+<text x="52" y="207" font-size="16" fill="#e6edf3">B2B platforms  ·  AI products  ·  Energy &amp; industrial systems</text>
+<rect x="708" y="92" width="128" height="54" rx="8" fill="#151b23" stroke="#3d444d" stroke-width="1.5"/>
+<text x="772.0" y="115" text-anchor="middle" font-size="14" font-weight="600" fill="#e6edf3">Users &amp;</text>
+<text x="772.0" y="133" text-anchor="middle" font-size="14" fill="#9198a1">their work</text><rect x="872" y="92" width="128" height="54" rx="8" fill="#151b23" stroke="#3fb9a9" stroke-width="2"/>
+<text x="936.0" y="115" text-anchor="middle" font-size="14" font-weight="600" fill="#e6edf3">Product</text>
+<text x="936.0" y="133" text-anchor="middle" font-size="14" fill="#9198a1">decision</text><rect x="1036" y="92" width="128" height="54" rx="8" fill="#151b23" stroke="#3d444d" stroke-width="1.5"/>
+<text x="1100.0" y="115" text-anchor="middle" font-size="14" font-weight="600" fill="#e6edf3">System</text>
+<text x="1100.0" y="133" text-anchor="middle" font-size="14" fill="#9198a1">in use</text><line x1="840" y1="119.0" x2="866" y2="119.0" stroke="#9198a1" stroke-width="1.5" marker-end="url(#a)"/><line x1="1004" y1="119.0" x2="1030" y2="119.0" stroke="#9198a1" stroke-width="1.5" marker-end="url(#a)"/><path d="M1100.0 150 V190 H772.0 V154" fill="none" stroke="#3fb9a9" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#b)"/>
+<rect x="856.0" y="179" width="160" height="22" fill="#0d1117"/>
+<text x="936.0" y="195" text-anchor="middle" font-size="13" font-style="italic" fill="#3fb9a9">evidence → next decision</text>
+</svg>

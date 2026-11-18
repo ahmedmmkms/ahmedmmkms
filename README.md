@@ -1,6 +1,7 @@
-# Ahmed Mahmoud Moustafa
-
-**Technical product manager · Systems engineer · Researcher & teacher**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/header-dark.svg" />
+  <img src="./assets/brand/header-light.svg" alt="Ahmed Mahmoud Moustafa, Technical Product Manager. Systems engineer, researcher and teacher. A loop from users and their work, to a product decision, to the system in use, with evidence feeding the next decision." width="100%" />
+</picture>
 
 I’m a technical product manager with a PhD in cyber-physical systems. I’m Interim Head of the Computers and Systems Engineering Department at Minia University, where I’m also an Associate Professor.
 
@@ -79,6 +80,13 @@ I write about the economics of AI products and how AI changes work.
 - [AI Did Not Make Work Simpler. It Made Expectations Heavier.](https://www.linkedin.com/pulse/ai-did-make-work-simpler-made-expectations-heavier-ahmed-mahmoud-gmutf/)
 
 [All articles on LinkedIn →](https://www.linkedin.com/in/ahmedmmkms/recent-activity/articles/)
+
+## Path so far
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/path-dark.svg" />
+  <img src="./assets/brand/path-light.svg" alt="Career path: BSc 2009, MSc 2013, PhD and Assistant Professor 2019, simulation and control consulting 2020 to 2023, Associate Professor and Interim Head of Department 2025, and product work today." width="100%" />
+</picture>
 
 ## The engineering side of me
 
