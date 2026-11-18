@@ -4,11 +4,11 @@
 
 **Systems engineer · Technical product manager · Researcher & teacher**
 
-I’m Ahmed Sadek. My background is in cyber-physical systems, control, and modeling, and I’m an Associate Professor in Computers and Systems Engineering at Minia University.
+I’m Ahmed Mahmoud Moustafa. My background is in cyber-physical systems, control, and modeling, and I’m an Associate Professor in Computers and Systems Engineering at Minia University.
 
 I enjoy the part of product work where a choice has to be made: what to build first, what to simplify, and what needs more evidence. That’s where I bring my engineering background—especially when software has to work with people, everyday processes, or physical systems.
 
-[LinkedIn](https://www.linkedin.com/in/ahmedmmkms/) · [Research](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ) · [Email](mailto:ahmed.mahmoud@mu.edu.eg)
+[LinkedIn](https://www.linkedin.com/in/ahmedmmkms/) · [Research](https://scholar.google.com/citations?hl=en&user=iKZKLygAAAAJ) · [Email](mailto:ahmedmmkms@gmail.com)
 
 ## From my product notebook
 
@@ -94,6 +94,6 @@ Teaching and research are part of this picture too. I want the reasoning to be c
 
 If you’re working on a product where the engineering and the day-to-day workflow are tightly connected, I’d be glad to compare notes.
 
-[**Find me on LinkedIn**](https://www.linkedin.com/in/ahmedmmkms/) · [**Send me an email**](mailto:ahmed.mahmoud@mu.edu.eg)
+[**Find me on LinkedIn**](https://www.linkedin.com/in/ahmedmmkms/) · [**Send me an email**](mailto:ahmedmmkms@gmail.com)
 
 <sub>Illustrations and handwritten boards are editorial artwork. Project details and evidence live in the linked pages.</sub>
